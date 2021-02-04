@@ -6,4 +6,6 @@ title: About
 
 Obsah stranky About
 
-{{ page.url }}
+{{ page.url | relative_url}}
+
+zmena
