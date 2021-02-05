@@ -28,6 +28,8 @@ body {
    height: 120px;
    margin: 0px auto;
    text-align: center
+   float: left;
+   clear: both;
 }
 
 .centerpiece {
@@ -45,6 +47,8 @@ body {
    font-size: 50%;
    text-align: center;
    border: 1px solid blue;
+   float: left;
+   clear: both;
 }
 
 .left-menu {
