@@ -15,18 +15,24 @@ menu {
    clear: both; 
 }
 
-menu li {
-   list-style: none;
+.menutable {
+   text-align: center;
+   width: 100px;
+   border: 0;
+   cellpadding: 0;
+   cellspacing: 0;
+   align: center; 
 }
 
-menu li a {
-   padding: 6px 0 6px 20px;
-   background-color: #AF0011;
-   text-decoration: none;
+.td-to-other {
+   font-weight: bold;
+   font-family: Helvetica,Arial,sans-serif;
 }
 
-menu li a:hover {
-   background-color: #C3001D;
+.td-to-current {
+   font-weight: bold;
+   font-family: Helvetica,Arial,sans-serif;
+   background-color: #FAFA7F;
 }
 
 .mainframe {
