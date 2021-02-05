@@ -18,7 +18,18 @@ body {
 }
 
 .topping {
-  text-align: center;
+   width: 800px; 
+   hieght: 120px;
+   float: left;
+   clear: both;
+}
+
+.footing {
+   width: 800px; 
+   hieght: 120px;
+   float: left;
+   clear: both;
+   font-size: 75%;
 }
 
 .left-menu {
