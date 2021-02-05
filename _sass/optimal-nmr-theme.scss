@@ -1,3 +1,25 @@
 .current {
-  color: green;
+   color: green;
+}
+
+body {
+   backgroungcolor: #EDEDED  ;
+}
+
+.wrapper {
+   widht: 800px; 
+   margin-left: auto;
+   margin-right: auto;
+   backgroundcolor: rgb(250, 250, 200);
+   font-family: Helvetica,Arial,sans-serif;
+   border: 1px solid green;
+}
+
+.footer {
+   widht: 700px; 
+   margin-left: auto;
+   margin-right: auto;
+   backgroundcolor: rgb(190, 190, 125);
+   font-family: Helvetica,Arial,sans-serif;
+   border: 1px solid blue;
 }
