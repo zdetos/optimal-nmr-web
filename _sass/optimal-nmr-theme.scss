@@ -14,8 +14,7 @@ body {
    border: 1px solid green;
    margin: 0px auto;
    position: relative;
-   float: left;
-   clear: both;
+   overflow: auto;
 }
 
 .topping {
@@ -39,6 +38,7 @@ body {
    margin: 0px auto;
    font-size: 50%;
    text-align: center
+   border: 1px solid blue;
 }
 
 .left-menu {
