@@ -27,10 +27,12 @@ body {
    float: left;
    position: fixed;
    margin: 30px 25px 0 0;
+   clear: both;
 }
 
 .right-place {
    width: 650px;
    float: right;
    background-color: rgb(220, 190, 200);
+   clear: both;
 }
