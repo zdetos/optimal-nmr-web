@@ -16,10 +16,16 @@ body {
    position: relative;
 }
 
-.footer {
-   width: 700px; 
+.left-menu {
+   width: 150px; 
    background-color: rgb(190, 190, 125);
-   font-family: Helvetica,Arial,sans-serif;
-   border: 1px solid blue;
-   margin: 0px auto;
+   float: left
+   position: fixed;
+   margin: 30px 25px 0 0;
+}
+
+.right-place {
+   width: 650px;
+   float: right;
+   background-color: rgb(220, 190, 200);
 }
