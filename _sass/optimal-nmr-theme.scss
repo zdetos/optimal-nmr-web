@@ -16,10 +16,14 @@ body {
    position: relative;
 }
 
+.topping {
+  text-align: center;
+}
+
 .left-menu {
    width: 150px; 
    background-color: rgb(190, 190, 125);
-   float: left
+   float: left;
    position: fixed;
    margin: 30px 25px 0 0;
 }
