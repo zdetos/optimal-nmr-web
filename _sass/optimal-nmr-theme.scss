@@ -7,14 +7,15 @@ body {
    margin: 0;
 }
 
-nav li {
-   list-style-type: none;
-   width: 100px;
-   height: 15px;
-   background-color: #AF0011;
+menu li {
+   list-style: none;
 }
 
-nav li:hover {
+menu li a {
+   background-color: #AF0011;
+   
+}
+menu li a:hover {
    background-color: #C3001D;
 }
 
