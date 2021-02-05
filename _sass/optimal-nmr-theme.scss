@@ -7,14 +7,24 @@ body {
    margin: 0;
 }
 
+menu { 
+   margin: 0;
+   padding: 0; 
+   width: 80px; 
+   float: left; 
+   clear: both; 
+}
+
 menu li {
    list-style: none;
 }
 
 menu li a {
+   padding: 6px 0 6px 20px;
    background-color: #AF0011;
-   
+   text-decoration: none;
 }
+
 menu li a:hover {
    background-color: #C3001D;
 }
