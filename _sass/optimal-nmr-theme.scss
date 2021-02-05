@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-   width: 800px; 
+   width: 812px; 
    background-color: rgb(250, 250, 200);
    font-family: Helvetica,Arial,sans-serif;
    border: 1px solid green;
@@ -19,17 +19,23 @@ body {
 
 .topping {
    width: 800px; 
-   hieght: 120px;
-   float: left;
-   clear: both;
+   height: 120px;
+   margin: 0px auto;
+   text-align: center
+}
+
+.centerpiece {
+   width: 800px; 
+   margin: 0px auto;
+   border: 1px solid red;
 }
 
 .footing {
    width: 800px; 
-   hieght: 120px;
-   float: left;
-   clear: both;
-   font-size: 75%;
+   height: 120px;
+   margin: 0px auto;
+   font-size: 50%;
+   text-align: center
 }
 
 .left-menu {
