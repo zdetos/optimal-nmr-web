@@ -7,6 +7,17 @@ body {
    margin: 0;
 }
 
+nav li {
+   list-style-type: none;
+   width: 100px;
+   height: 15px;
+   background-color: #AF0011;
+}
+
+nav li:hover {
+   background-color: #C3001D;
+}
+
 .mainframe {
    width: 820px; 
    border: 2px solid black;
@@ -63,7 +74,7 @@ body {
 .right-place {
    width: 670px;
    float: right;
-   padding: 5px 5px auto;
+   padding: 5px 5px 5px 5px;
    background-color: rgb(220, 190, 200);
    clear: both;
 }
