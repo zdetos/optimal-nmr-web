@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# Nadpis About
+# Nadpis About   {#my-h1-id}
 
 Obsah stranky About
 
