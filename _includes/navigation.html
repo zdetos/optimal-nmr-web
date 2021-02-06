@@ -1,7 +1,7 @@
 <table class="menutable">
   {% for item in site.data.navigation %}
     <tr><td {% if page.url == item.link %}class="td-to-current"{% else %}class="td-to-other"{% endif %}>
-    <a href="{{ item.link | relative_url }}" >
+    <a class="menulink" href="{{ item.link | relative_url }}" >
       {{ item.name }}
     </a>
     </td></tr>
