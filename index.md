@@ -17,3 +17,5 @@ On this site we summarize our experience with application of optimal control in 
 
 #### References
 
+1. Tosner, Z. *et al.* Radiofrequency fields in MAS solid state NMR probes. *J Magn Reson* 284, 20–32 \(**2017**\)
+2. Tosner, Z. *et al.* Overcoming Volume Selectivity of Dipolar Recoupling in Biological Solid-State NMR Spectroscopy. *Angew. Chemie - Int. Ed.* 57, 14514–14518 \(**2018**\)
