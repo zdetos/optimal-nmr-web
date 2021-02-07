@@ -1,0 +1,14 @@
+---
+layout: default
+title: Sequences
+---
+<h1 id="my-h1-id">List of tm-SPICE sequences</h1>
+
+<ul>
+  {% for item in site.data.sequences %}
+    <li>
+      <h2><a href="{{ item.link |relative_url }}">{{ item.name }}</a></h2>
+      {{ item.text }}
+    </li>
+  {% endfor %}
+</ul>
