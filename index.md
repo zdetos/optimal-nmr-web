@@ -5,10 +5,17 @@ title: Main-page
 
 # Welcome {#my-h1-id}
 
-Text a textovani.
+On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
 
-Druha radka.
+#### What you find here
 
-{{ page.url | relative_url}}
+- Pulse shapes for dipolar recoupling experiments in **Downloads**
+- Description how to use these shapes in **Experiments**
+- Description of B<sub>1</sub> field in solenoid coils used in typical MAS probes in **B1 fields**
+- Introduction to theory behind our optimal control approach **Theory**
+- Description of our numerical tools in **SIMPSON**
 
-zmena
+#### References
+
+1. [Tosner, Z. *et al.* Radiofrequency fields in MAS solid state NMR probes. *J Magn Reson* 284, 20–32 (**2017**)](https://doi.org/10.1016/j.jmr.2017.09.002)
+2. [Tosner, Z. *et al.* Overcoming Volume Selectivity of Dipolar Recoupling in Biological Solid-State NMR Spectroscopy. *Angew. Chemie - Int. Ed.* 57, 14514–14518 (**2018**)](https://doi.org/10.1002/anie.201805002)
