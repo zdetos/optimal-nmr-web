@@ -103,6 +103,18 @@ a.menulink:visited {
    border-bottom: 1px solid #ccc;
 }
 
+#my-h4-id {
+   padding: 0 0 5px 25px;
+}
+
 p {
    padding: 0 0 0 25px
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
 }
