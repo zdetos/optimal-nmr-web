@@ -14,11 +14,13 @@ td.td-to-other {
    height: 25px;
 /*   background: rgb(0,90,180); */
    background-image: url("/assets/images/button1.png");
+   background-repeat: no-repeat;
 }
 
 td.td-to-other:hover {
 /*   background-color: rgb(8,31,126);  */
    background-image: url("/assets/images/button2.png");
+   background-repeat: no-repeat;
    font-weight: bold;
 }
 
@@ -29,6 +31,7 @@ td.td-to-current {
    height: 25px;
 /*   background: rgb(0,90,180);  */
    background-image: url("/assets/images/button2.png");
+   background-repeat: no-repeat;
 }
 
 a.menulink {
