@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Resources
+title: Optimal Experiments
 ---
-# Nadpis Resources   {#my-h1-id}
+# NCA and NCO experiments   {#my-h1-id}
 
-Obsah stranky Resources
+![NCX pulse sequence](/images/ncx_pulse_sequence.png "NCA/NCO Experiment")
 
-{{ page.url | relative_url}}
+
 
 Obsah stranky Resources chci aby byl co nejdelsi aby se ukazalo zalamovani radek, 
 ktere je proste treba taky vyzkouset abyse videlo jak to valstne funguje.

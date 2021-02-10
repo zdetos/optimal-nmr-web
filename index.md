@@ -7,10 +7,15 @@ title: Main-page
 
 On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
 
+In case of N-CA and N-CO magnetization transfers, we obtain **1.5-times more signal** compared to carefully optimized ramp-CP experiments performed in the range of **MAS frequencies 13-15 kHz**. Our tm-SPICE shapes can be adapted to any MAS frequency in this range. 
+
 #### What you find here  {#my-h4-id}
 
 - Pulse shapes for dipolar recoupling experiments in **Downloads**
 - Description how to use these shapes in **Experiments**
+
+#### What you will find here (we prepare) {#my-h4-id}
+
 - Description of B<sub>1</sub> field in solenoid coils used in typical MAS probes in **B1 fields**
 - Introduction to theory behind our optimal control approach in **Theory**
 - Description of our numerical tools in **SIMPSON**

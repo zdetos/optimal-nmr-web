@@ -1,8 +1,9 @@
 - name: Home
   link: /
+- name: Experiments
+  link: /experiments.html
+- name: Downloads
+  link: /sequences.html
 - name: About
   link: /about.html 
-- name: Resources
-  link: /resources.html
-- name: Download
-  link: /sequences.html  
+  

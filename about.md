@@ -2,10 +2,10 @@
 layout: default
 title: About
 ---
-# Nadpis About   {#my-h1-id}
+# People behind   {#my-h1-id}
 
-Obsah stranky About
+#### Zdenek Tosner  {#my-h4-id}
 
-{{ page.url | relative_url}}
+Charles University, Prague, Czech Republic
 
-zmena
+
