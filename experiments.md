@@ -20,4 +20,4 @@ title: Optimal Experiments
 | Duration  | t = N<sub>R</sub> / &nu;<sub>R</sub><sup>NOM</sup> = 3636.36 &mu;s | t = N<sub>R</sub> / &nu;<sub>R</sub> = 3333.33 &mu;s |
 | RF amplitude | &nu;<sub>1</sub><sup>NOM</sup> = 35 kHz | &nu;<sub>1</sub> = &nu;<sub>1</sub><sup>NOM</sup> &times; &nu;<sub>R</sub> /  &nu;<sub>R</sub><sup>NOM</sup> |
 
-You should get nice signals. Sometimes, it is beneficial to optimize RF amplitudes of tm-SPICE pulses within &pm;XX dB range.
+You should get nice signals. Sometimes, it is beneficial to optimize RF amplitudes of tm-SPICE pulses within \&pm;XX dB range.
