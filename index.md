@@ -7,7 +7,7 @@ title: Main-page
 
 On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
 
-In case of N-CA and N-CO magnetization transfers, we obtain **1.5-times more signal** compared to carefully optimized ramp-CP experiments performed in the range of **MAS frequencies 13-15 kHz**. Our tm-SPICE shapes can be adapted to any MAS frequency in this range. 
+In case of N-CA and N-CO magnetization transfers, we obtain **1.5-times more signal** compared to carefully optimized ramp-CP experiments performed in the range of **MAS frequencies 13-20 kHz**. Our tm-SPICE shapes can be adapted to any MAS frequency in this range. 
 
 #### What you find here  {#my-h4-id}
 
