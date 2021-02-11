@@ -101,7 +101,7 @@ a.menulink:visited {
 .left-menu {
    width: 125px; 
    float: left;
-/*   position: fixed;  */
+   position: fixed; 
    margin: 0px 0px 0 0;
    clear: both;
 /*   background-color: rgb(250, 250, 250);   */
@@ -110,6 +110,7 @@ a.menulink:visited {
 .right-place {
    width: 665px;
    float: right;
+   position: fixed; 
    padding: 5px 0px 5px 0px;
 /*   background-color: rgb(250, 250, 250);   */
    clear: both;
