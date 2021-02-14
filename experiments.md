@@ -16,8 +16,8 @@ title: Optimal Experiments
 |                   | Nominal                    |   Actual                   |
 |-------------------|----------------------------|----------------------------|
 | MAS frequency     | \\(\nu_R^{NOM}\\) = 16.5 kHz | \\(\nu_R\\) = 18 kHz |
-| Number of rotor periods | \\(N_R\\)  |              |
+| Number of rotor periods | \\(N_R\\) =60 |      \\(N_R\\) = 60        |
 | Duration  | \\(t = N_R / \nu_R^{NOM}\\) = 3636.36 &mu;s | \\(t = N_R / \nu_R\\) = 3333.33 &mu;s |
 | RF amplitude | \\(\nu_1^{NOM}\\) = 35 kHz | \\(\nu_1 = \nu_1^{NOM} \times \nu_R /  \nu_R^{NOM}\\) |
 
-You should get nice signals. Sometimes, it is beneficial to optimize RF amplitudes of tm-SPICE pulses within \\(\pm\\)XX dB range.
+You should get nice signals. Sometimes, it is beneficial to optimize RF amplitudes of tm-SPICE pulses within \\(\pm\\)1 dB range.

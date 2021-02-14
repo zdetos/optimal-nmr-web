@@ -8,8 +8,3 @@ title: About
 
 Charles University, Prague, Czech Republic
 
-Equation inline \\(a^2+b^2=c^2\\)
-
-Equation centered
-
-$$ E=m c^2$$
