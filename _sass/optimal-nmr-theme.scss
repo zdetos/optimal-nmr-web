@@ -20,13 +20,12 @@ table.menutable {
 td.td-to-other {
    text-align: center;
    height: 25px;
-/*   background: rgb(0,90,180); */
+   background-color: transparent; 
    background-image: url("/assets/images/button1.png");
    background-repeat: no-repeat;
 }
 
 td.td-to-other:hover {
-/*   background-color: rgb(8,31,126);  */
    background-image: url("/assets/images/button2.png");
    background-repeat: no-repeat;
    font-weight: bold;
@@ -37,7 +36,7 @@ td.td-to-current {
    font-style: italic;
    text-align: center;
    height: 25px;
-/*   background: rgb(0,90,180);  */
+   background-color: transparent; 
    background-image: url("/assets/images/button2.png");
    background-repeat: no-repeat;
 }
@@ -133,9 +132,9 @@ table {
 }
 
 th {
-   background: rgb(43,171,226);
+   background-color: rgb(43,171,226);
 }
 
 td {
-   background: rgb(219,241,251);
+   background-color: rgb(219,241,251);
 }
