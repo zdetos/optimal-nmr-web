@@ -1,13 +1,13 @@
 - name: tm-SPICE 16.5 kHz - NCA
   link: /sequences/tmSPICE-MAS16.5kHz-NCA.zip
-  text: length of 60 rotor periods, nominal RF amplitudes 35 kHz
+  text: duration of 60 rotor periods, nominal MAS frequency 16.5 kHz, nominal RF amplitudes 35 kHz
 - name: tm-SPICE 16.5 kHz - NCO
   link: /sequences/tmSPICE-MAS16.5kHz-NCO.zip
-  text: length of 60 rotor periods, nominal RF amplitudes 35 kHz
+  text: duration of 60 rotor periods, nominal MAS frequency 16.5 kHz, nominal RF amplitudes 35 kHz
 - name: tm-SPICE 20 kHz - NCA
   link: /sequences/tmSPICE-MAS20kHz-NCA.zip
-  text: length of 70 rotor periods, nominal RF amplitudes 40 kHz
+  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
 - name: tm-SPICE 20 kHz - NCO
   link: /sequences/tmSPICE-MAS20kHz-NCO.zip
-  text: length of 70 rotor periods, nominal RF amplitudes 40 kHz
+  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
   
