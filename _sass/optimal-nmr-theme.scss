@@ -13,6 +13,8 @@ body {
 table.menutable {
    width: 100%;
    border-spacing: 0px 10px;
+   border: 0;
+   margin: 0;
 }
 
 td.td-to-other {
@@ -123,4 +125,17 @@ a {
 
 a:hover {
    text-decoration: underline;
+}
+
+table {
+   border: 1px solid rgb(43,171,226); 
+   margin: 0 0 0 25px;  
+}
+
+th {
+   background: rgb(43,171,226);
+}
+
+td {
+   background: rgb(219,241,251);
 }
