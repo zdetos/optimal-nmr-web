@@ -12,3 +12,11 @@ title: Sequences
     </li>
   {% endfor %}
 </ul>
+
+
+<dl>
+  {% for item in site.data.sequences %}
+    <dt><a href="{{ item.link |relative_url }}">{{ item.name }}</a></dt>
+    <dd>  {{ item.text }}  </dd>
+  {% endfor %}
+</dl>
