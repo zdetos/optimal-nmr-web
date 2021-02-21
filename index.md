@@ -11,8 +11,8 @@ In case of N-CA and N-CO magnetization transfers, we obtain **1.5-times more sig
 
 #### What you find here  {#my-h4-id}
 
-- Pulse shapes for dipolar recoupling experiments in **Downloads**
-- Description how to use these shapes in **Experiments**
+- Pulse shapes for dipolar recoupling experiments in [**Downloads**](/sequences.html?classes=menulink)
+- Description how to use these shapes in [**Experiments**](/experiments.html)
 
 #### What you will find here (we prepare) {#my-h4-id}
 
