@@ -5,7 +5,9 @@ title: Optimal Experiments
 # NCA and NCO experiments   {#my-h1-id}
 
 ![NCX pulse sequence](/images/ncx_pulse_sequence.png "NCA/NCO Experiment")
-You can download Bruker pulse program [using the right-click here](/sequences/doubcp.zt)
+
+You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt).
+
 
 #### Experimental protocol   {#my-h4-id}
 
