@@ -14,13 +14,16 @@ In case of N-CA and N-CO magnetization transfers, we obtain **1.5-times more sig
 - Pulse shapes for dipolar recoupling experiments in [**_Downloads_**](/sequences.html){:class="menulink"}
 - Description how to use these shapes in [**_Experiments_**](/experiments.html){:class="menulink"}
 
+<!---
 #### What you will find here (we prepare) {#my-h4-id}
 
 - Description of B<sub>1</sub> field in solenoid coils used in typical MAS probes in **B1 fields**
 - Introduction to theory behind our optimal control approach in **Theory**
 - Description of our numerical tools in **SIMPSON**
+-->
 
 #### References  {#my-h4-id}
 
 1. Tosner, Z. *et al.* Radiofrequency fields in MAS solid state NMR probes. *J Magn Reson* 284, 20-32 \(**2017**\). [DOI: 10.1016/j.jmr.2017.09.002](https://doi.org/10.1016/j.jmr.2017.09.002)
 2. Tosner, Z. *et al.* Overcoming Volume Selectivity of Dipolar Recoupling in Biological Solid-State NMR Spectroscopy. *Angew. Chemie \- Int. Ed.* 57, 14514-14518 \(**2018**\). [DOI: 10.1002/anie.201805002](https://doi.org/10.1002/anie.201805002)
+3. Tosner, Z. *et al.* Maximizing efficiency of dipolar recoupling in solid-state NMR using optimal control sequences. *Sci. Adv.* 42, abj5913 \(**2021**\). [DOI: 10.1126/sciadv.abj5913](https://doi.org/10.1126/sciadv.abj5913)
