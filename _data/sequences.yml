@@ -10,4 +10,10 @@
 - name: tm-SPICE 20 kHz - NCO
   link: /sequences/tmSPICE-MAS20kHz-NCO.zip
   text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
+- name: tm-SPICE 60 kHz - CA-N
+  link: /sequences/tmSPICE-MAS60kHz-CAN.zip
+  text: duration of 210 rotor periods, nominal MAS frequency 60 kHz, nominal RF amplitudes 90/60 kHz for 13C/15N channels, respectively
+- name: tm-SPICE 60 kHz - CO-N
+  link: /sequences/tmSPICE-MAS60kHz-CON.zip
+  text: duration of 210 rotor periods, nominal MAS frequency 60 kHz, nominal RF amplitudes 90/60 kHz for 13C/15N channels, respectively
   
