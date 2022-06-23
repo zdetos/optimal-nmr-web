@@ -6,13 +6,22 @@ title: Main-page
 # Welcome {#my-h1-id}
 
 On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
+Currently, we have developed **tm-SPICE** pulse sequences for the traditional (uni-axial, \\I_x\\ &rarr \\S_x\\) magnetization transfer, and 
+**TROP** pulse sequences performing transverse mixing (I_x &rarr S_x and I_y &rarr S_y) that allow to systematically enhance
+sensitivity by $\sqrt(2)$ for each indirect dimension of n-D experiments.
 
-In case of N-CA and N-CO magnetization transfers, we obtain **1.5-times more signal** compared to carefully optimized ramp-CP experiments performed in the range of **MAS frequencies 13-20 kHz**. Our tm-SPICE shapes can be adapted to any MAS frequency in this range. 
 
 #### What you find here  {#my-h4-id}
 
 - Pulse shapes for dipolar recoupling experiments in [**_Downloads_**](/sequences.html){:class="menulink"}
 - Description how to use these shapes in [**_Experiments_**](/experiments.html){:class="menulink"}
+
+
+In case of tm-SPICE N-CA and N-CO magnetization transfers, we obtain **1.5-times more signal** compared to carefully optimized ramp-CP experiments performed in the range of **MAS frequencies 13-20 kHz**. Our tm-SPICE shapes can be adapted to any MAS frequency in this range. \[3\]
+
+In case of TROP transfers, N-dimensional experiments are done in the echo/anti-echo manner using dedicated pulse programs. Experiments show
+that it is possible to obtain sensitivity gains that go beyond the systematic $\sqrt(2)$ per indirect dimension due to compensation of RF field inhomogeneity.
+
 
 <!---
 #### What you will find here (we prepare) {#my-h4-id}
