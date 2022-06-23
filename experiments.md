@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Optimal Experiments
+title: optimal-nmr Experiments
 ---
 # NCA and NCO experiments   {#my-h1-id}
 
