@@ -5,7 +5,7 @@ title: Main-page
 
 # Welcome {#my-h1-id}
 
-<div style="text-align: justify">
+<div style="text-align: justify" markdown="1">
 On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
 Currently, we have developed **tm-SPICE** pulse sequences for the traditional (uni-axial, \\(I_x \rightarrow S_x\\) ) magnetization transfer, and 
 **TROP** pulse sequences performing transverse mixing (\\(I_x \rightarrow S_x\\) and \\(I_y \rightarrow S_y\\) ) that allow to systematically enhance
