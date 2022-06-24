@@ -43,7 +43,7 @@ You should get nice signals. Sometimes, it is beneficial to optimize RF amplitud
 | MAS frequency     | \\(\nu_R^{NOM}\\) = 20 kHz | \\(\nu_R\\) = 18 kHz |
 | Number of rotor periods | \\(N_R\\) =70 |      \\(N_R\\) = 70        |
 | Duration  | \\(t = N_R / \nu_R^{NOM}\\) = 3500 &mu;s | \\(t = N_R / \nu_R\\) = 3888.89 &mu;s |
-| RF amplitude | \\(\nu_1^{NOM}\\) = 40 kHz | \\(\nu_1 = \nu_1^{NOM} \times \nu_R /  \nu_R^{NOM}\\) \ = 36 kHz|
+| RF amplitude | \\(\nu_1^{NOM}\\) = 40 kHz | \\(\nu_1 = \nu_1^{NOM} \times \nu_R /  \nu_R^{NOM}\\) <br> = 36 kHz|
 
 You should get nice signals. Sometimes, it is beneficial to optimize RF amplitudes of tm-SPICE pulses within \\(\pm\\)1 dB range.
 </div>
@@ -63,7 +63,7 @@ You should get nice signals. Sometimes, it is beneficial to optimize RF amplitud
 | MAS frequency     | \\(\nu_R^{NOM}\\) = 55 kHz | \\(\nu_R\\) = 58 kHz |
 | Number of rotor periods | \\(N_R\\) = 200 |      \\(N_R\\) = 200        |
 | Duration  | \\(t = N_R / \nu_R^{NOM}\\) = 3636.36 &mu;s | \\(t = N_R / \nu_R\\) = 3448.28 &mu;s |
-| RF amplitude | \\(\nu_1^{NOM}\\) = 80 kHz | \\(\nu_1 = \nu_1^{NOM} \times \nu_R /  \nu_R^{NOM}\\) = 84.4 kHz|
+| RF amplitude | \\(\nu_1^{NOM}\\) = 80 kHz | \\(\nu_1 = \nu_1^{NOM} \times \nu_R /  \nu_R^{NOM}\\) <br> = 84.4 kHz|
 
 You should get nice signals. On some spectrometers we found it is necessary to optimize RF amplitudes of TROP pulses within a broader range 
 below the expected values (down to about 70% of the calculated value). Investigation of this phenomenon is underway.
