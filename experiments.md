@@ -2,11 +2,22 @@
 layout: default
 title: optimal-nmr Experiments
 ---
-# NCA and NCO experiments   {#my-h1-id}
-
+# tm-SPICE NCA and NCO experiments   {#my-h1-id}
 
 |---|---|
 |![NCX pulse sequence](/images/ncx_pulse_sequence.png "NCA/NCO Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt). |
+
+# Sensitivity-enhanced TROP 2D NCA and NCO experiments   {#my-h1-id}
+
+|---|---|
+|![seNCX pulse sequence](/images/seNCX.png "se-NCA/NCO Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt). |
+
+# Sensitivity-enhanced TROP 3D hCANH and hCONH experiments   {#my-h1-id}
+
+|---|---|
+|![seCXNH pulse sequence](/images/se3D-hCNH.png "se-hCA/CONH Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt). |
+
+
 
 
 #### Experimental protocol   {#my-h4-id}
