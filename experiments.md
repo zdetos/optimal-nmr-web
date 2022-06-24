@@ -7,10 +7,10 @@ title: optimal-nmr Experiments
 |---|---|
 |![NCX pulse sequence](/images/ncx_pulse_sequence.png "NCA/NCO Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt). |
 
-<details><summary>
+<details markdown="1"><summary markdown="1">
 #### Experimental protocol   {#my-h4-id}
 </summary>
-<p>
+<p markdown="1">
 1. **Calibrate RF amplitudes** for all channels using nutation experiment. We need a relation between RF power entered in the spectrometer software (Watts or dB) and the actual nutation frequency (kHz) of such pulse. Note that there is a systematic error due to large RF inhomogeneity - the actual RF amplitude in the coil center is about 10% larger.
 2. **Optimize H-N transfer** using <sup>15</sup>N CP MAS experiment. We use ramp-CP with the linear ramp from 70% up to 100% of the RF amplitude applied on the <sup>1</sup>H channel. Contact time of 1 ms is sufficient. This transfer is quite robust towards RF inhomogeneities at moderate MAS frequencies and does not lead to large losses in terms of sample volume pre-selection.
 3. Switch to **NCA/NCO experiment**. Set proper values for offsets to be on resonance with the required nuclei (<sup>15</sup>N amides about 120 ppm, <sup>13</sup>C carbonyls about 170 ppm, <sup>13</sup>C alphas about 55 ppm). On Bruker spectrometers, we use the possibility to set the offset during a pulse sequence with the `fq` command.
