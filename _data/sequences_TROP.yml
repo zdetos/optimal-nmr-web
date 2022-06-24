@@ -1,0 +1,16 @@
+- name: TROP 20 kHz - NCA
+  link: /sequences/trop_NCA_MAS20kHz.zip
+  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
+- name: TROP 20 kHz - NCO
+  link: /sequences/trop_NCO_MAS20kHz.zip
+  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
+- name: TROP 55 kHz - CAN
+  link: /sequences/trop_CAN_MAS55kHz.zip
+  text: duration of 200 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitudes  80/55 kHz for 13C/15N channels, respectively
+- name: TROP 55 kHz - CON
+  link: /sequences/trop_CON_MAS55kHz.zip
+  text: duration of 200 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitudes  80/55 kHz for 13C/15N channels, respectively
+- name: TROP 60 kHz - NH
+  link: /sequences/trop_NH.zip
+  text: duration of XXX rotor periods, nominal MAS frequency 60 kHz, nominal RF amplitudes 100/70 kHz for 1H/15N channels, respectively
+  

@@ -6,7 +6,7 @@ title: optimal-nmr Sequences
 <details><summary>show here</summary>
 <p>
 <ul>
-  {% for item in site.data.sequences %}
+  {% for item in site.data.sequences_tmSPICE %}
     <li>
       <h3><a href="{{ item.link |relative_url }}">{{ item.name }}</a></h3>
       {{ item.text }}
@@ -19,6 +19,14 @@ title: optimal-nmr Sequences
 <h1 id="my-h1-id">List of TROP sequences</h1>
 <details><summary>show here</summary>
 <p>
+<ul>
+  {% for item in site.data.sequences_TROP %}
+    <li>
+      <h3><a href="{{ item.link |relative_url }}">{{ item.name }}</a></h3>
+      {{ item.text }}
+    </li>
+  {% endfor %}
+</ul>
 nothing here so far
 </p>
 </details>                        
