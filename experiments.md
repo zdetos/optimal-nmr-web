@@ -10,12 +10,12 @@ title: optimal-nmr Experiments
 # Sensitivity-enhanced TROP 2D NCA and NCO experiments   {#my-h1-id}
 
 |---|---|
-|![seNCX pulse sequence](/images/seNCX.png "se-NCA/NCO Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt). |
+|![seNCX pulse sequence](/images/seNCX.png "se-NCA/NCO Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/sehNC2D.jb_v20220623). |
 
 # Sensitivity-enhanced TROP 3D hCANH and hCONH experiments   {#my-h1-id}
 
 |---|---|
-|![seCXNH pulse sequence](/images/se3D-hCNH.png "se-hCA/CONH Experiment") | You can download Bruker pulse program using the right-click [here](/sequences/doubcp.zt). |
+|![seCXNH pulse sequence](/images/se3D-hCNH.png "se-hCA/CONH Experiment") | You can download Bruker pulse program using the right-click for the [3D se-hCANH](/sequences/sehCaNH3Dws.jb_v20220623), and for the [3D se-hCONH](/sequences/sehCONH3Dws.jb_v20220623). |
 
 
 

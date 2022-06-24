@@ -1,0 +1,92 @@
+;sehNC2D.jb
+
+;hNC experiment with
+;sensitivity enhanced NC transfer using TROP pulse and
+;JB + ZT Faculty of Science, Charles University in Prague
+;
+;
+;$CLASS=BioSolids
+;$DIM=2D
+;$TYPE=Heteronuclear Double-resonance
+;$SUBTYPE=sensitivity enhanced
+;$COMMENT=hNC sensitivity-enhanced 2D using TROP pulse
+
+;Parameters:
+;p1 : C 90 at plw1
+;p2 : H 90 at plw2
+;p3 : N 90 at plw3
+;p23 : HN CP contact time
+;p13 : NCO CP contact time
+
+;pl1 : C hard pulse power
+;pl2 : H hard pulse power
+;pl3 : N hard pulse power
+;plw12 : H high-power decoupling power
+;plw13 : H dec power for CW during NC CP
+
+;sp1 : H HN CP (ramp) power
+;sp10 : N HN CP (rect) power
+;sp2 : N NCO CP (TROP) power
+;sp20 : C NCO CP (TROP) power
+
+;d0 : incremental delay (t1)
+;d1 : recycle delay; 1 to 5 times T1
+
+;pcpd2 : H dec pulse cpdprg2 
+;cpdprg2 : H decoupling file cw, tppm (at pl12)
+
+;spnam1 : ramp.10070  (H hN CP)
+;spnam10 : square.100 (N hN CP)
+;spnam2 : TROP-<NCa,NCO>-MASxkHz-x-chan15N.sh (N NC seCP)
+;spnam20 : TROP-<NCa,NCO>-MASxkHz-x-chan13N.sh (C NC seCP) 
+
+;ns : number of scans n x 4
+;td1 : number of N increments
+;FnMODE : echo-antiecho
+
+"p11=2*p1"
+"in0=inf1"
+
+1 ze
+2 d1 do:f2
+
+#include <acq_prot.incl> 
+;Max. 50 ms acquisition time
+
+; Initial excitation and CP           
+(p2 pl2 ph0):f2
+(p23:sp1 ph1):f2 (p23:sp10 ph10):f3
+
+; t1 evolution                     
+0.1u cpds2:f2			; 1H decoupling on
+(center
+  (d0)
+  (p11 pl1 ph11):f1
+)
+0.1u do:f2			 ; 1H decoupling off
+(p3 pl3 ph3):f3		; 1st half of 180
+(p3 pl3 ph4):f3		; 2nd half of 180
+
+
+; se NC CP                        
+(p13:sp20 ph20):f1 (p13:sp2 ph2):f3 (p13 pl13 ph13):f2
+
+; Acquisition  
+go=2 ph31 cpds2:f2 
+1m do:f2 mc #0 to 2
+	F1EA(calph(ph4, +180) & calph(ph31,+180),caldel(d0, +in0))
+
+HaltAcqu, 1m  	;jump address for protection files
+exit
+
+; phase
+ph0= 1 1 3 3 ; H excitation hard pulse
+ph1= 0 ; H HN CP
+ph10= 1 2 ; N HN CP
+ph11= 0 ; C hard pulse during d0
+ph3= 0 1 ; N 1st half of 180
+ph4= 0 1 ; N 2nd half of 180
+ph2= 0 0 0 0 2 2 2 2 ; N NCO CP
+ph20= 0 ; C NC CP
+ph13= 0 ; H CW dec during NC CP
+ph31= 2 3 0 1 0 1 2 3 ; detection 
