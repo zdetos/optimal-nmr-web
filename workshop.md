@@ -12,7 +12,8 @@ title: optimal-nmr Experiments
  
 **Thursday, Oct 13**
 
-| :--- | :---: | :---- |
+| Time | Speaker | Title |
+| :--- | :---: | :--- |
 | 14:00 | Bernd Reif, Zdenìk Tošner| Welcome |
 | 14:05 | Jan Blahut, Matthias Brandl | Overview of our achievements <br> <details><summary>Abstract</summary> Text and text and bla bla </details>|
 | 14:45 | Johana Baldus | Optimal control pulses for the NC transfer in membrane protein solid-state NMR |
@@ -26,8 +27,9 @@ title: optimal-nmr Experiments
 | 19:15 | Discussions in the Club ||
  
 **Friday, Oct 13**
-
-| :---  | :---: | :---- |
+ 
+| Time | Speaker | Title |
+| :---  | :---: | :--- |
 | 9:00  | Niels Christian Nielsen | Single-spin vector and exact effective Hamiltonian theory based design of optimal experiments in magnetic resonance |
 | 9:30  | Matthias Ernst          | A continuous approach to Floquet theory for pulse-sequence optimization in solid-state NMR |
 | 10:00 | Ilya Kuprov             | Dealing with instrument response functions within GRAPE framework |
