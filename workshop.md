@@ -4,7 +4,7 @@ title: optimal-nmr Experiments
 ---
 # Workshop Optimal Control in MAS solid-state NMR  {#my-h1-id}
 
-**Time**: October 13-14, 2022
+**Date**: October 13-14, 2022
 
 **Location**:  [Institute of Advanced Studies](https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/) of the Technical University Munich in Garching, Germany
 

@@ -3,7 +3,7 @@ layout: default
 title: optimal-nmr Main page
 ---
 
-# Welcome {#my-h1-id}
+# Welcome I {#my-h1-id}
 
 <div style="text-align: justify" markdown="1">
 On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
