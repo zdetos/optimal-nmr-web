@@ -15,7 +15,7 @@ title: optimal-nmr Experiments
 | Time | Speaker | Title |
 | :--- | :---: | :--- |
 | 14:00 | Bernd Reif, Zdenek Tosner| Welcome |
-| 14:05 | Jan Blahut, Matthias Brandl | Overview of our achievements <br> <details markdown="1"><summary>Abstract</summary> Text and text and bla bla </details>|
+| 14:05 | Jan Blahut, Matthias Brandl | Overview of our achievements <br> <details markdown="1"><summary>Abstract</summary><div markdown="1"> Text and text and bla bla </div></details>|
 | 14:45 | _Johana Baldus_ | Optimal control pulses for the NC transfer in membrane protein solid-state NMR |
 | 15:15 | Jan Stanek    | Transverse Magnetic Field Inhomogeneity and its Consequences for Performance of Protein Triple Resonance Correlation Experiments Under fast MAS |
 | 15:45 | **Break**     ||
