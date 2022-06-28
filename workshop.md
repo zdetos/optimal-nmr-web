@@ -62,8 +62,9 @@ title: optimal-nmr Experiments
       <td style="text-align: center"><em>Jan Blahut, Matthias Brandl</em></td>
       <td style="text-align: left">Overview of our achievements <br /> 
          <details><summary>Abstract</summary>
-         
-         Text and text and bla bla 
+         <p style="font-size: 8px">
+         Text of the abstract in smaller fonts
+         </p> 
          </details>
       </td>
     </tr>
@@ -179,7 +180,12 @@ title: optimal-nmr Experiments
     <tr>
       <td style="text-align: left">10:00</td>
       <td style="text-align: center"><em>Ilya Kuprov</em></td>
-      <td style="text-align: left">Dealing with instrument response functions within GRAPE framework</td>
+      <td style="text-align: left">Dealing with instrument response functions within GRAPE framework<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
     </tr>
     <tr>
       <td style="text-align: left">10:30</td>
