@@ -9,7 +9,8 @@ title: optimal-nmr Experiments
 **Location**:  [Institute of Advanced Studies](https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/) of the Technical University Munich in Garching, Germany
 
 #### Program  {#my-h4-id}
- 
+
+<!--- 
 **Thursday, Oct 13**
 
 | Time | Speaker | Title |
@@ -38,7 +39,9 @@ title: optimal-nmr Experiments
 | 11:30 | _Loren Andreas_   | _TBA_  |
 | 12:00 | _???_             | _TBA_  |
 | 12:30 | Closing ||                                                                                                    
+-->
 
+**Thursday, Oct 13**
 
 <table>
   <thead>
@@ -51,18 +54,172 @@ title: optimal-nmr Experiments
   <tbody>
     <tr>
       <td style="text-align: left">14:00</td>
-      <td style="text-align: center">Bernd Reif, Zdenek Tosner</td>
+      <td style="text-align: center"><em>Bernd Reif, Zdenek Tosner</em></td>
       <td style="text-align: left">Welcome</td>
     </tr>
     <tr>
       <td style="text-align: left">14:05</td>
-      <td style="text-align: center">Jan Blahut, Matthias Brandl</td>
+      <td style="text-align: center"><em>Jan Blahut, Matthias Brandl</em></td>
       <td style="text-align: left">Overview of our achievements <br /> 
-        <details><summary>Abstract</summary>
-        
-        Text and text and bla bla 
-        </details>
+         <details><summary>Abstract</summary>
+         
+         Text and text and bla bla 
+         </details>
       </td>
     </tr>
+    <tr>
+      <td style="text-align: left">14:45</td>
+      <td style="text-align: center"><em>Johanna Baldus</em></td>
+      <td style="text-align: left">Optimal control pulses for the NC transfer in membrane protein solid-state NMR<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:15</td>
+      <td style="text-align: center"><em>Jan Stanek</em></td>
+      <td style="text-align: left">Transverse Magnetic Field Inhomogeneity and its Consequences for Performance of Protein Triple Resonance Correlation Experiments Under fast MAS<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:45</td>
+      <td style="text-align: center"><strong>Break</strong></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:15</td>
+      <td style="text-align: center"><em>Piotr Klukowski</em></td>
+      <td style="text-align: left">ARTINA: deep learning-based approach to fully automated chemical shift assignment and protein structure determination<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:45</td>
+      <td style="text-align: center"><em>Rasmus Linser</em></td>
+      <td style="text-align: left">Higher-dimensionality solid-state NMR for facilitated resonance assignment and elucidation of protein dynamics<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17:15</td>
+      <td style="text-align: center"><em>Paul Schanda</em></td>
+      <td style="text-align: left">Protein dynamics in large assemblies: from local side chain motions to functional large-scale mobility<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17:45</td>
+      <td style="text-align: center"><em>Guido Pintacuda</em></td>
+      <td style="text-align: left"><em>TBA</em><br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">18:15</td>
+      <td style="text-align: center">Dinner</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">19:15</td>
+      <td style="text-align: center">Discussions in the Club</td>
+      <td style="text-align: left"> </td>
+    </tr>
   </tbody>
-</table> 
+</table>
+
+**Friday, Oct 13**
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: center">Speaker</th>
+      <th style="text-align: left">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">9:00</td>
+      <td style="text-align: center"><em>Niels Christian Nielsen</em></td>
+      <td style="text-align: left">Single-spin vector and exact effective Hamiltonian theory based design of optimal experiments in magnetic resonance<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9:30</td>
+      <td style="text-align: center"><em>Matthias Ernst</em></td>
+      <td style="text-align: left">A continuous approach to Floquet theory for pulse-sequence optimization in solid-state NMR<br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10:00</td>
+      <td style="text-align: center"><em>Ilya Kuprov</em></td>
+      <td style="text-align: left">Dealing with instrument response functions within GRAPE framework</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10:30</td>
+      <td style="text-align: center">Break</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11:00</td>
+      <td style="text-align: center"><em>Andrew Pell</em></td>
+      <td style="text-align: left"><em>TBA</em><br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11:30</td>
+      <td style="text-align: center"><em>Loren Andreas</em></td>
+      <td style="text-align: left"><em>TBA</em><br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:00</td>
+      <td style="text-align: center"><em>???</em></td>
+      <td style="text-align: left"><em>TBA</em><br /> 
+         <details><summary>Abstract</summary>
+         
+         Text of the abstract 
+         </details>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12:30</td>
+      <td style="text-align: center">Closing</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
