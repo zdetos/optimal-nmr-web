@@ -62,8 +62,8 @@ title: optimal-nmr Experiments
       <td style="text-align: center"><em>Jan Blahut, Matthias Brandl</em></td>
       <td style="text-align: left">Overview of our achievements <br /> 
          <details><summary>Abstract</summary>
-         <p style="font-size: 14px">
-         Text of the abstract in smaller fonts of 14px
+         <p style="font-size: 12px">
+         Text of the abstract in smaller fonts of 12px
          </p> 
          </details>
       </td>
