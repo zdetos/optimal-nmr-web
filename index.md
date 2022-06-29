@@ -2,14 +2,17 @@
 layout: default
 title: optimal-nmr Main page
 ---
+# Workshop Optimal Control in MAS solid-state NMR  {#my-h1-id}
 
-# Welcome I {#my-h1-id}
+October 13-14, 2022, see details in the [**_Workshop_**](/workshop.html){:class="menulink"} section
+
+# Welcome {#my-h1-id}
 
 <div style="text-align: justify" markdown="1">
 On this site we summarize our experience with application of optimal control in solid state NMR studies of protein samples. 
 
-Currently, we have developed **tm-SPICE** pulse sequences for the traditional (uni-axial, \\(I_x \rightarrow S_x\\) ) magnetization transfer, and 
-**TROP** pulse sequences performing transverse mixing (simultaneous \\(I_x \rightarrow S_x\\) and \\(I_y \rightarrow S_y\\) ) that allow to systematically enhance
+Currently, we have developed **tm-SPICE** pulse sequences for the traditional (uni-axial, \\(I_x \rightarrow S_x\\)) magnetization transfer, and 
+**TROP** pulse sequences performing transverse mixing (simultaneous \\(I_x \rightarrow S_x\\) and \\(I_y \rightarrow S_y\\)) that allow to systematically enhance
 sensitivity by \\(\sqrt{2}\\) for each indirect dimension.
 </div>
 

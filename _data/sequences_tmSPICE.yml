@@ -1,19 +1,25 @@
 - name: tm-SPICE 16.5 kHz - NCA
   link: /sequences/tmSPICE-MAS16.5kHz-NCA.zip
-  text: duration of 60 rotor periods, nominal MAS frequency 16.5 kHz, nominal RF amplitudes 35 kHz
+  text: duration of 60 rotor periods, nominal MAS frequency 16.5 kHz, nominal RF amplitudes 35 kHz for both channels
 - name: tm-SPICE 16.5 kHz - NCO
   link: /sequences/tmSPICE-MAS16.5kHz-NCO.zip
-  text: duration of 60 rotor periods, nominal MAS frequency 16.5 kHz, nominal RF amplitudes 35 kHz
+  text: duration of 60 rotor periods, nominal MAS frequency 16.5 kHz, nominal RF amplitudes 35 kHz for both channels
 - name: tm-SPICE 20 kHz - NCA
   link: /sequences/tmSPICE-MAS20kHz-NCA.zip
-  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
+  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz for both channels
 - name: tm-SPICE 20 kHz - NCO
   link: /sequences/tmSPICE-MAS20kHz-NCO.zip
-  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz
+  text: duration of 70 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitudes 40 kHz for both channels
 - name: tm-SPICE 60 kHz - CA-N
   link: /sequences/tmSPICE-MAS60kHz-CAN.zip
   text: duration of 210 rotor periods, nominal MAS frequency 60 kHz, nominal RF amplitudes 90/60 kHz for 13C/15N channels, respectively
 - name: tm-SPICE 60 kHz - CO-N
   link: /sequences/tmSPICE-MAS60kHz-CON.zip
   text: duration of 210 rotor periods, nominal MAS frequency 60 kHz, nominal RF amplitudes 90/60 kHz for 13C/15N channels, respectively
+- name: tm-SPICE 110 kHz - CA-N
+  link: /sequences/tmSPICE-MAS110kHz-CAN.zip
+  text: duration of 385 rotor periods, nominal MAS frequency 110 kHz, nominal RF amplitudes 110/80 kHz for 13C/15N channels, respectively
+- name: tm-SPICE 110 kHz - CO-N
+  link: /sequences/tmSPICE-MAS110kHz-CAN.zip
+  text: duration of 385 rotor periods, nominal MAS frequency 110 kHz, nominal RF amplitudes 110/80 kHz for 13C/15N channels, respectively
   
