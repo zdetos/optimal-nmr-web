@@ -6,13 +6,13 @@
 
 - time: "14:15"
   speaker: "Jan Blahut, Matthias Brandl"
-  title: Overview of our achievements
+  title: "Overview of our achievements"
   abstract: >
         "tm-SPICE pulses for x to x transfer, TROP pulses for transverse mixing and sensitivity enhanced
         multidimensional spectra, combined and directed magnetization transfers for backbone assignments"
         
 - time: "15:00"
-  speaker: Johanna Baldus
+  speaker: "Johanna Baldus"
   title: "Optimal control pulses for the NC transfer in membrane protein solid-state NMR"
   abstract: >
         "Using solid state NMR, membrane proteins can be studied in a lipid bilayer environment. 
@@ -25,7 +25,7 @@
         limitations of these pulses in our applications."         
         
 - time: "15:30"
-  speaker: Rasmus Linser 
+  speaker: "Rasmus Linser"
   title: "Higher-dimensionality solid-state NMR for facilitated resonance assignment and elucidation of protein dynamics"
   abstract: >
         "Proton-detected solid-state NMR spectroscopy has enabled the combined use of complex pulse 
