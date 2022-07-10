@@ -229,3 +229,29 @@ title: optimal-nmr Experiments
     </tr>
   </tbody>
 </table>
+
+
+**Timetable test**
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: center">Speaker</th>
+      <th style="text-align: left">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in site.data.workshop_program_test %}
+     <tr>
+      <td style="text-align: left">{{ item.time }}</td>
+      <td style="text-align: center"><em>{{ item.speaker }}</em></td>
+      <td style="text-align: left">{{ item.title }}<br /> 
+         <details><summary>Abstract</summary>
+         
+         {{ item.abstract }}
+         </details>
+      </td>
+     </tr>
+  {% endfor %}
+  </tbody>
+</table>

@@ -2,7 +2,7 @@
 layout: default
 title: optimal-nmr Main page
 ---
-# Workshop Optimal Control in MAS solid-state NMR  {#my-h1-id}
+# Workshop Optimal Control in MAS solid-state NMR
 
 October 13-14, 2022, see details in the [**_Workshop_**](/workshop.html){:class="menulink"} section
 
