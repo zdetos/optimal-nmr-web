@@ -1,14 +1,12 @@
 - time: "14:00"
   speaker: "Bernd Reif, Zdenek Tosner"
   title:   "Welcome and Introduction"
-  abstract: >
-        "Workshop motivation and introduction to our optimal control methods"
+  abstract: "Workshop motivation and introduction to our optimal control methods"
 
 - time: "14:15"
   speaker: "Jan Blahut, Matthias Brandl"
   title: "Overview of our achievements"
-  abstract: >
-        "tm-SPICE pulses for x to x transfer, TROP pulses for transverse mixing and sensitivity enhanced
+  abstract: "tm-SPICE pulses for x to x transfer, TROP pulses for transverse mixing and sensitivity enhanced
         multidimensional spectra, combined and directed magnetization transfers for backbone assignments"
         
 - time: "15:00"
