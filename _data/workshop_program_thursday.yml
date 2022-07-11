@@ -92,7 +92,7 @@
            The method was tested on a 100-protein benchmark dataset (1329 2D/3D/4D NMR spectra), 
            demonstrating its ability to solve structures with 1.44 A backbone median RMSD to the PDB 
            reference, and to identify 91.36% correct NMR resonance assignments. ARTINA is publicly 
-           available to non-commercial users within the NMRtist platform (https://nmrtist.org)." 
+           available to non-commercial users within the NMRtist platform." 
 
 - time: "18:15"
   type: "break"
