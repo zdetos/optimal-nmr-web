@@ -242,7 +242,7 @@ title: optimal-nmr Experiments
     </tr>
   </thead>
   <tbody>
-  {% for item in site.data.workshop_program_thursday %}
+  {% for item in site.data.workshop_program_test %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
       {% if item.type == "break" %}
@@ -274,7 +274,7 @@ title: optimal-nmr Experiments
     </tr>
   </thead>
   <tbody>
-  {% for item in site.data.workshop_program_friday %}
+  {% for item in site.data.workshop_program_test %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
       {% if item.type == "break" %}

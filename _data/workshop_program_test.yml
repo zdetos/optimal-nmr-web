@@ -1,0 +1,11 @@
+- time: "16:00"
+  type: "break"
+  speaker: "Break"
+  title:   "bubu"
+  abstract: "hihi haha" 
+
+- time: "16:45"
+  type: "talk"
+  speaker: "Ilya Kuprov"
+  title:   "Dealing with instrument response functions within GRAPE framework"
+  abstract: "Response function"
