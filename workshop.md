@@ -39,7 +39,7 @@ title: optimal-nmr Experiments
 | 11:30 | _Loren Andreas_   | _TBA_  |
 | 12:00 | _???_             | _TBA_  |
 | 12:30 | Closing ||                                                                                                    
--->
+
 
 **Thursday, Oct 13**
 
@@ -229,9 +229,9 @@ title: optimal-nmr Experiments
     </tr>
   </tbody>
 </table>
+-->
 
-<!--- 
-**Timetable test**
+**Thursday, Oct 13**
 
 <table>
   <thead>
@@ -242,9 +242,13 @@ title: optimal-nmr Experiments
     </tr>
   </thead>
   <tbody>
-  {% for item in site.data.workshop_program_test %}
+  {% for item in site.data.workshop_program_thursday %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
+      {% if item.type == "break" %}
+      <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+      <td style="text-align: left"> </td>
+      {% else %}
       <td style="text-align: center"><em>{{ item.speaker }}</em></td>
       <td style="text-align: left">{{ item.title }}<br /> 
          <details><summary>Abstract</summary>
@@ -253,8 +257,40 @@ title: optimal-nmr Experiments
          </p> 
          </details>
       </td>
+      {% endif %}
      </tr>
   {% endfor %}
   </tbody>
 </table>
--->
+
+**Friday, Oct 13**
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: center">Speaker</th>
+      <th style="text-align: left">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in site.data.workshop_program_friday %}
+     <tr>
+      <td style="text-align: left">{{ item.time }}</td>
+      {% if item.type == "break" %}
+      <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+      <td style="text-align: left"> </td>
+      {% else %}
+      <td style="text-align: center"><em>{{ item.speaker }}</em></td>
+      <td style="text-align: left">{{ item.title }}<br /> 
+         <details><summary>Abstract</summary>
+         <p style="font-size: 12px; width: 300px; text-align: justify">
+         {{ item.abstract }}
+         </p> 
+         </details>
+      </td>
+      {% endif %}
+     </tr>
+  {% endfor %}
+  </tbody>
+</table>
