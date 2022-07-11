@@ -1,5 +1,5 @@
 - time: "9:00"
-  type: talk
+  type: "talk"
   speaker: "Paul Schanda"
   title:   "Protein dynamics in large assemblies: from local side chain motions to functional large-scale mobility"
   abstract: "MAS NMR is an essential method to gain insights into dynamics at the atomic scale, independently 
@@ -13,13 +13,13 @@
         rings within a protein interior and with other molecules."
         
 - time: "9:30"
-  type: talk
+  type: "talk"
   speaker: "Guido Pintacuda"
   title:   "to be announced"
   abstract: "no abstract given" 
 
 - time: "10:00"
-  type: talk
+  type: "talk"
   speaker: "Matthias Ernst"
   title:   "A continuous approach to Floquet theory for pulse-sequence optimization in solid-state NMR"
   abstract: "Floquet theory uses a Fourier series expansion of the time-dependent Hamiltonian to transform
@@ -27,7 +27,6 @@
         is the transition from a finite-dimensional to an infinite-dimensional Hilbert space. Today,
         Floquet theory is often used in combination with analytical operator-based van Vleck perturbation
         theory to generate effective time-independent Hamiltonians.
-
         We present a modified Floquet framework that uses a continuous frequency space to describe and
         design solid-state NMR experiments using time-dependent Hamiltonians. The approach is similar to
         the well established Floquet treatment for NMR, but is not restricted to periodic Hamiltonians
@@ -36,7 +35,6 @@
         This continuous Floquet approach simplifies the description of sequences with effective fields and
         correctly describes the finite width of resonance conditions for pulse sequences with finite mixing
         time.
-
         It allows, in certain cases, the back calculation of the pulse scheme from the desired effective
         Hamiltonian as a function of spin-system parameters. We show as an example how to back calculate
         the radio-frequency irradiation in the MIRROR experiment from the desired chemical-shift offset
@@ -45,31 +43,32 @@
         to frequency-selective recoupling in solid-state NMR under MAS." 
 
 - time: "10:30"
-  type: break
+  type: "break"
   speaker: "Break"
-  title: 
-  abstract:  
+  title:  ""
+  abstract: "" 
   
 - time: "11:15"
-  type: talk
+  type: "talk"
   speaker: "Andrew Pell"
   title:   "to be announced"
   abstract: "no abstract given"
   
 - time: "11:45"
-  type: talk
+  type: "talk"
   speaker: "Loren Andreas"
   title:   "to be announced"
   abstract: "no abstract given"   
   
 - time: "12:15"
-  type: talk
+  type: "talk"
   speaker: "Niels Christian Nielsen"
   title:   "Single-spin vector and exact effective Hamiltonian theory based design of optimal experiments in magnetic resonance"
   abstract: "no abstract given"   
   
 - time: "12:45"
-  type: break
+  type: "break"
   speaker: "Closing"
-  title: 
-  abstract:                    
+  title:   ""
+  abstract: "" 
+                    
