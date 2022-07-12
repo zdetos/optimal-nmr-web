@@ -248,9 +248,10 @@ title: optimal-nmr Experiments
       <td style="text-align: center"><em>{{ item.speaker }}</em></td>
       <td style="text-align: left">{{ item.title }}<br /> 
          <details><summary>Abstract</summary>
-         <div style="font-size: 12px; width: 300px; text-align: justify">
+         
+         <p style="font-size: 12px; width: 300px; text-align: justify">
          {{ item.abstract }}
-         </div> 
+         </p> 
          </details>
       </td>
      </tr>
