@@ -72,17 +72,17 @@
            Usually, it takes weeks or months of manual work to transform a set of raw NMR spectra into 
            the protein structure model. Automation of this process is an open problem, formulated in 
            the field about three decades ago. In this study, we addressed this challenge by combining 
-           deep learning with methods available in CYANA. 
+           deep learning with methods available in CYANA. <br>
            Our method, ARTINA, uses as input only protein sequence and set of 2D/3D/4D Fourier transformed 
            NMR spectra, delivering as output: (a) cross-peak coordinates, (b) chemical shifts, 
            (c) distance restraints, and (d) protein structure. The proposed technique works strictly 
            without any human intervention, allowing to get (a), (b), (c) and/or (d) within hours after 
-           the completion of measurement. 
+           the completion of measurement.  <br>
            ARTINA uses a deep residual neural network, trained on 675,324 diverse labelled examples, 
            to identify and deconvolve cross-peaks in the spectrum. Detected signal coordinates undergo 
            automated chemical shift assignment with FLYA, which is facilitated by a deep graph neural 
            network. In the final step, ARTINA calculates 9 structure candidates with CYANA, and orders 
-           them by their expected quality using gradient boosted trees. 
+           them by their expected quality using gradient boosted trees.  <br>
            The method was tested on a 100-protein benchmark dataset (1329 2D/3D/4D NMR spectra), 
            demonstrating its ability to solve structures with 1.44 A backbone median RMSD to the PDB 
            reference, and to identify 91.36% correct NMR resonance assignments. ARTINA is publicly 

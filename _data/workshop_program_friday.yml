@@ -22,7 +22,7 @@
         the Hamiltonian into a time-independent representation. The price to pay for this transformation
         is the transition from a finite-dimensional to an infinite-dimensional Hilbert space. Today,
         Floquet theory is often used in combination with analytical operator-based van Vleck perturbation
-        theory to generate effective time-independent Hamiltonians.
+        theory to generate effective time-independent Hamiltonians.  <br>
         We present a modified Floquet framework that uses a continuous frequency space to describe and
         design solid-state NMR experiments using time-dependent Hamiltonians. The approach is similar to
         the well established Floquet treatment for NMR, but is not restricted to periodic Hamiltonians
@@ -30,7 +30,7 @@
         theory on a continuous Fourier space, which leads to effective, i.e. time-independent, Hamiltonians.
         This continuous Floquet approach simplifies the description of sequences with effective fields and
         correctly describes the finite width of resonance conditions for pulse sequences with finite mixing
-        time.
+        time.  <br>
         It allows, in certain cases, the back calculation of the pulse scheme from the desired effective
         Hamiltonian as a function of spin-system parameters. We show as an example how to back calculate
         the radio-frequency irradiation in the MIRROR experiment from the desired chemical-shift offset
@@ -47,10 +47,10 @@
   speaker: "Paul Schanda"
   title:   "Protein dynamics in large assemblies: from local side chain motions to functional large-scale mobility"
   abstract: "MAS NMR is an essential method to gain insights into dynamics at the atomic scale, independently 
-        of the protein size. In this presentation I show recent applications to studies of dynamics. 
+        of the protein size. In this presentation I show recent applications to studies of dynamics. <br>
         In one part I will decipher how large-scale motion within a half-megadalton enzyme complex can 
         be detected and quantified using MAS NMR methods, and how these are linked to an apparently 
-        allosteric network across the protein.
+        allosteric network across the protein.   <br>
         In a second part, I will dwell onto details of side chain motion; in particular, I will investigate 
         how aromatic rings flip in different types of protein assemblies: globular proteins in a crystal, 
         amyloid fibers and large oligomeric proteins. The results shed light onto the packing of aromatic 
