@@ -1,19 +1,18 @@
 - time: "14:00"
   speaker: "Bernd Reif, Zdenek Tosner"
-  title:   "Welcome and Introduction"
+  title:   "Welcome and Introduction to optimal control approach"
   abstract: "Workshop motivation and introduction to our optimal control methods"
 
 - time: "14:15"
   speaker: "Jan Blahut, Matthias Brandl"
-  title: "Overview of our achievements"
+  title: "Overview of our developments"
   abstract: "tm-SPICE pulses for x to x transfer, TROP pulses for transverse mixing and sensitivity enhanced
         multidimensional spectra, combined and directed magnetization transfers for backbone assignments"
         
 - time: "15:00"
   speaker: "Johanna Baldus"
   title: "Optimal control pulses for the NC transfer in membrane protein solid-state NMR"
-  abstract: >
-        "Using solid state NMR, membrane proteins can be studied in a lipid bilayer environment. 
+  abstract: "Using solid state NMR, membrane proteins can be studied in a lipid bilayer environment. 
         The resulting spectra are often quite complex and suffer from spectral overlap. Therefore, 
         often highly selective isotope labelling schemes are applied. Magnetization transfer steps 
         in these sparsely labelled samples are difficult to optimize, especially when narrow 
@@ -25,8 +24,7 @@
 - time: "15:30"
   speaker: "Rasmus Linser"
   title: "Higher-dimensionality solid-state NMR for facilitated resonance assignment and elucidation of protein dynamics"
-  abstract: >
-        "Proton-detected solid-state NMR spectroscopy has enabled the combined use of complex pulse 
+  abstract: "Proton-detected solid-state NMR spectroscopy has enabled the combined use of complex pulse 
         sequences and short recycle delays, thereby granting both, high signal to noise per unit 
         time and peak dispersion. As a consequence, proteins with high-molecular-weight asymmetric 
         units have become amenable for solid-state NMR, both in terms of resonance assignment 
@@ -41,4 +39,60 @@
   speaker: "Break"
   title: " "
   abstract: " "          
+
+- time: "16:45"
+  speaker: "Ilya Kuprov"
+  title:   "Dealing with instrument response functions within GRAPE framework"
+  abstract: "Response functions of resonant circuits create ringing artefacts if their input changes 
+            rapidly. When physical limits of electromagnetic spectroscopies are explored, this creates 
+            two types of problems. Firstly, simulation: the system must be propagated accurately 
+            through every oscillatory transient, this may be computationally expensive. Secondly, 
+            optimal control optimisation: instrument response must be taken into account; it may be 
+            advantageous to design pulses that are resilient to instrumental distortions. At the 
+            root of both problems is the popular piecewise-constant approximation for control 
+            sequences; in magnetic resonance it has persisted since the earliest days. In this paper, 
+            we report an implementation and some benchmarks for simulation and optimal control 
+            routines that use more recent Lie-group methods. Those simulate and optimise control 
+            pulses that are piecewise-polynomial – easier to generate on modern hardware and more 
+            resilient to instrumental distortions. However, the basic mathematics of magnetic 
+            resonance simulation and optimal control does require an update." 
+
+- time: "17:15"
+  speaker: "Jan Stanek"
+  title:   "Transverse Magnetic Field Inhomogeneity and its Consequences for Performance of Protein Triple Resonance Correlation Experiments Under fast MAS"
+  abstract: "no abstract given" 
+
+- time: "17:45"
+  speaker: "Piotr Klukowski"
+  title:   "ARTINA: deep learning-based approach to fully automated chemical shift assignment and protein structure determination"
+  abstract: "The analysis of multidimensional NMR spectra of macromolecules is considered to be a 
+           work-intensive task, which constitutes a bottleneck in NMR-driven structural biology research. 
+           Usually, it takes weeks or months of manual work to transform a set of raw NMR spectra into 
+           the protein structure model. Automation of this process is an open problem, formulated in 
+           the field about three decades ago. In this study, we addressed this challenge by combining 
+           deep learning with methods available in CYANA. 
+           Our method, ARTINA, uses as input only protein sequence and set of 2D/3D/4D Fourier transformed 
+           NMR spectra, delivering as output: (a) cross-peak coordinates, (b) chemical shifts, 
+           (c) distance restraints, and (d) protein structure. The proposed technique works strictly 
+           without any human intervention, allowing to get (a), (b), (c) and/or (d) within hours after 
+           the completion of measurement. 
+           ARTINA uses a deep residual neural network, trained on 675,324 diverse labelled examples, 
+           to identify and deconvolve cross-peaks in the spectrum. Detected signal coordinates undergo 
+           automated chemical shift assignment with FLYA, which is facilitated by a deep graph neural 
+           network. In the final step, ARTINA calculates 9 structure candidates with CYANA, and orders 
+           them by their expected quality using gradient boosted trees. 
+           The method was tested on a 100-protein benchmark dataset (1329 2D/3D/4D NMR spectra), 
+           demonstrating its ability to solve structures with 1.44 A backbone median RMSD to the PDB 
+           reference, and to identify 91.36% correct NMR resonance assignments. ARTINA is publicly 
+           available to non-commercial users within the NMRtist platform." 
+
+- time: "18:45"
+  speaker: "Dinner"
+  title:   " "
+  abstract: " "      
   
+- time: "19:45"
+  speaker: "Discussions in the club"
+  title:   " "
+  abstract: " "              
+    
