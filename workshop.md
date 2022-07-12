@@ -254,12 +254,14 @@ title: optimal-nmr Experiments
          <td style="text-align: left"> </td>
       {% else %}
          <td style="text-align: left">
-            {{ item.title }}<br> 
+            <div style="width: 300px; text-align: justify">
+            {{ item.title }} 
             <details><summary>Abstract</summary>
-            <p style="font-size: 12px; width: 300px; text-align: justify">
+            <p style="font-size: 12px">
                {{ item.abstract }}
             </p> 
             </details>
+            </div>
          </td>
       {% endif %}
      </tr>
