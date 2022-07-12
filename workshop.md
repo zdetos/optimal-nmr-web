@@ -231,7 +231,7 @@ title: optimal-nmr Experiments
 </table>
 -->
 
-**Timetable test**
+**Thursday, Oct 13**
 
 <table>
   <thead>
@@ -245,7 +245,11 @@ title: optimal-nmr Experiments
   {% for item in site.data.workshop_program_test %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
+      {% if item.speaker == "Break"  %}
+      <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+      {% else %}
       <td style="text-align: center"><em>{{ item.speaker }}</em></td>
+      {% endif %}
       <td style="text-align: left">{{ item.title }}<br /> 
          <details><summary>Abstract</summary>
          
