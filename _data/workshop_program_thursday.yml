@@ -45,7 +45,8 @@
 - time: "16:45"
   speaker: "Ilya Kuprov"
   title:   "Dealing with instrument response functions within GRAPE framework"
-  abstract: "Response functions of resonant circuits create ringing artefacts if their input changes 
+  abstract: >
+            Response functions of resonant circuits create ringing artefacts if their input changes 
             rapidly. When physical limits of electromagnetic spectroscopies are explored, this creates 
             two types of problems. Firstly, simulation: the system must be propagated accurately 
             through every oscillatory transient, this may be computationally expensive. Secondly, 
@@ -57,4 +58,4 @@
             routines that use more recent Lie-group methods. Those simulate and optimise control 
             pulses that are piecewise-polynomial – easier to generate on modern hardware and more 
             resilient to instrumental distortions. However, the basic mathematics of magnetic 
-            resonance simulation and optimal control does require an update."   
+            resonance simulation and optimal control does require an update.   
