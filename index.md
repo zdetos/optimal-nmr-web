@@ -2,7 +2,7 @@
 layout: default
 title: optimal-nmr Main page
 ---
-<div style="text-align: center">
+<div style="text-align: center; background-color: rgb(219,241,251)">
 <h1> Workshop <br> Optimal Control in MAS solid-state NMR  </h1>
 </div> 
 
