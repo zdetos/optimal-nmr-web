@@ -245,6 +245,10 @@ title: optimal-nmr Experiments
   {% for item in site.data.workshop_program_test %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
+      {% if item.type == "break" %}
+      <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+      <td style="text-align: left"> </td>
+      {% else %}
       <td style="text-align: center"><em>{{ item.speaker }}</em></td>
       <td style="text-align: left">{{ item.title }}<br /> 
          <details><summary>Abstract</summary>
@@ -253,6 +257,7 @@ title: optimal-nmr Experiments
          </p> 
          </details>
       </td>
+      {% endif %}
      </tr>
   {% endfor %}
   </tbody>
@@ -272,6 +277,10 @@ title: optimal-nmr Experiments
   {% for item in site.data.workshop_program_test %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
+      {% if item.type == "break" %}
+      <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+      <td style="text-align: left"> </td>
+      {% else %}
       <td style="text-align: center"><em>{{ item.speaker }}</em></td>
       <td style="text-align: left">{{ item.title }}<br /> 
          <details><summary>Abstract</summary>
@@ -280,6 +289,7 @@ title: optimal-nmr Experiments
          </p> 
          </details>
       </td>
+      {% endif %}
      </tr>
   {% endfor %}
   </tbody>
