@@ -58,3 +58,43 @@
             pulses that are piecewise-polynomial - easier to generate on modern hardware and more 
             resilient to instrumental distortions. However, the basic mathematics of magnetic 
             resonance simulation and optimal control does require an update."   
+            
+- time: "17:15"
+  speaker: "Jan Stanek"
+  title:   "Transverse Magnetic Field Inhomogeneity and its Consequences for Performance of Protein Triple Resonance Correlation Experiments Under fast MAS"
+  abstract: "no abstract given" 
+
+- time: "17:45"
+  speaker: "Piotr Klukowski"
+  title:   "ARTINA: deep learning-based approach to fully automated chemical shift assignment and protein structure determination"
+  abstract: "The analysis of multidimensional NMR spectra of macromolecules is considered to be a 
+           work-intensive task, which constitutes a bottleneck in NMR-driven structural biology research. 
+           Usually, it takes weeks or months of manual work to transform a set of raw NMR spectra into 
+           the protein structure model. Automation of this process is an open problem, formulated in 
+           the field about three decades ago. In this study, we addressed this challenge by combining 
+           deep learning with methods available in CYANA. 
+           Our method, ARTINA, uses as input only protein sequence and set of 2D/3D/4D Fourier transformed 
+           NMR spectra, delivering as output: (a) cross-peak coordinates, (b) chemical shifts, 
+           (c) distance restraints, and (d) protein structure. The proposed technique works strictly 
+           without any human intervention, allowing to get (a), (b), (c) and/or (d) within hours after 
+           the completion of measurement. 
+           ARTINA uses a deep residual neural network, trained on 675,324 diverse labelled examples, 
+           to identify and deconvolve cross-peaks in the spectrum. Detected signal coordinates undergo 
+           automated chemical shift assignment with FLYA, which is facilitated by a deep graph neural 
+           network. In the final step, ARTINA calculates 9 structure candidates with CYANA, and orders 
+           them by their expected quality using gradient boosted trees. 
+           The method was tested on a 100-protein benchmark dataset (1329 2D/3D/4D NMR spectra), 
+           demonstrating its ability to solve structures with 1.44 A backbone median RMSD to the PDB 
+           reference, and to identify 91.36% correct NMR resonance assignments. ARTINA is publicly 
+           available to non-commercial users within the NMRtist platform." 
+
+- time: "18:15"
+  speaker: "Dinner"
+  title:   " "
+  abstract: " "      
+  
+- time: "19:15"
+  speaker: "Discussions in the club"
+  title:   " "
+  abstract: " "              
+              
