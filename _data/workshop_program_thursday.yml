@@ -1,18 +1,18 @@
 - time: "14:00"
-  type: "talk"
+  type: talk
   speaker: "Bernd Reif, Zdenek Tosner"
   title:   "Welcome and Introduction"
   abstract: "Workshop motivation and introduction to our optimal control methods"
 
 - time: "14:15"
-  type: "talk"
+  type: talk
   speaker: "Jan Blahut, Matthias Brandl"
   title: "Overview of our achievements"
   abstract: "tm-SPICE pulses for x to x transfer, TROP pulses for transverse mixing and sensitivity enhanced
         multidimensional spectra, combined and directed magnetization transfers for backbone assignments"
         
 - time: "15:00"
-  type: "talk"
+  type: talk
   speaker: "Johanna Baldus"
   title: "Optimal control pulses for the NC transfer in membrane protein solid-state NMR"
   abstract: "Using solid state NMR, membrane proteins can be studied in a lipid bilayer environment. 
@@ -25,7 +25,7 @@
         limitations of these pulses in our applications."         
         
 - time: "15:30"
-  type: "talk"
+  type: talk
   speaker: "Rasmus Linser"
   title: "Higher-dimensionality solid-state NMR for facilitated resonance assignment and elucidation of protein dynamics"
   abstract: "Proton-detected solid-state NMR spectroscopy has enabled the combined use of complex pulse 
@@ -40,13 +40,13 @@
         facilitate future solid-state NMR on biomolecules and beyond."
         
 - time: "16:00"
-  type: "break"
+  type: break
   speaker: "Break"
-  title:   ""
-  abstract: "" 
+  title: 
+  abstract:  
 
 - time: "16:45"
-  type: "talk"
+  type: talk
   speaker: "Ilya Kuprov"
   title:   "Dealing with instrument response functions within GRAPE framework"
   abstract: "Response functions of resonant circuits create ringing artefacts if their input changes 
@@ -64,13 +64,13 @@
             resonance simulation and optimal control does require an update." 
 
 - time: "17:15"
-  type: "talk"
+  type: talk
   speaker: "Jan Stanek"
   title:   "Transverse Magnetic Field Inhomogeneity and its Consequences for Performance of Protein Triple Resonance Correlation Experiments Under fast MAS"
   abstract: "no abstract given" 
 
 - time: "17:45"
-  type: "talk"
+  type: talk
   speaker: "Piotr Klukowski"
   title:   "ARTINA: deep learning-based approach to fully automated chemical shift assignment and protein structure determination"
   abstract: "The analysis of multidimensional NMR spectra of macromolecules is considered to be a 
@@ -95,14 +95,14 @@
            available to non-commercial users within the NMRtist platform (https://nmrtist.org)." 
 
 - time: "18:15"
-  type: "break"
+  type: break
   speaker: "Dinner"
-  title:   ""
-  abstract: ""      
+  title: 
+  abstract:       
   
 - time: "19:15"
-  type: "break"
+  type: break
   speaker: "Discussions in the club"
-  title:   ""
-  abstract: ""              
+  title: 
+  abstract:               
   
