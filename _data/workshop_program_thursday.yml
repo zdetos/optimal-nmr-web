@@ -47,9 +47,9 @@
   title:   "Dealing with instrument response functions within GRAPE framework"
   abstract: "Response functions of resonant circuits create ringing artefacts if their input changes 
             rapidly. When physical limits of electromagnetic spectroscopies are explored, this creates 
-            two types of problems. Firstly, simulation - the system must be propagated accurately 
+            two types of problems. Firstly, simulation: the system must be propagated accurately 
             through every oscillatory transient, this may be computationally expensive. Secondly, 
-            optimal control optimisation - instrument response must be taken into account; it may be 
+            optimal control optimisation: instrument response must be taken into account; it may be 
             advantageous to design pulses that are resilient to instrumental distortions. At the 
             root of both problems is the popular piecewise-constant approximation for control 
             sequences; in magnetic resonance it has persisted since the earliest days. In this paper, 
