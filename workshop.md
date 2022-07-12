@@ -8,7 +8,7 @@ title: optimal-nmr Experiments
 
 **Location**:  [Institute of Advanced Studies](https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/) of the Technical University Munich in Garching, Germany
 
-#### Program  {#my-h4-id}
+#### Program (preliminary) {#my-h4-id}
 
 <!--- 
 **Thursday, Oct 13**
@@ -39,7 +39,7 @@ title: optimal-nmr Experiments
 | 11:30 | _Loren Andreas_   | _TBA_  |
 | 12:00 | _???_             | _TBA_  |
 | 12:30 | Closing ||                                                                                                    
--->
+
 
 **Thursday, Oct 13**
 
@@ -229,7 +229,7 @@ title: optimal-nmr Experiments
     </tr>
   </tbody>
 </table>
-
+-->
 
 **Timetable test**
 
@@ -248,9 +248,9 @@ title: optimal-nmr Experiments
       <td style="text-align: center"><em>{{ item.speaker }}</em></td>
       <td style="text-align: left">{{ item.title }}<br /> 
          <details><summary>Abstract</summary>
-         <p style="font-size: 12px; width: 300px; text-align: justify">
+         <div style="font-size: 12px; width: 300px; text-align: justify">
          {{ item.abstract }}
-         </p> 
+         </div> 
          </details>
       </td>
      </tr>
