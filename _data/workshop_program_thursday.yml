@@ -5,7 +5,7 @@
 
 - time: "14:15"
   speaker: "Jan Blahut, Matthias Brandl"
-  title: "Overview of our achievements"
+  title: "Overview of our developments"
   abstract: "tm-SPICE pulses for x to x transfer, TROP pulses for transverse mixing and sensitivity enhanced
         multidimensional spectra, combined and directed magnetization transfers for backbone assignments"
         
@@ -89,12 +89,30 @@
            available to non-commercial users within the NMRtist platform." 
 
 - time: "18:15"
-  speaker: "Dinner"
-  title:   " "
-  abstract: " "      
+  speaker: "Matthias Ernst"
+  title:   "A continuous approach to Floquet theory for pulse-sequence optimization in solid-state NMR"
+  abstract: "Floquet theory uses a Fourier series expansion of the time-dependent Hamiltonian to transform
+        the Hamiltonian into a time-independent representation. The price to pay for this transformation
+        is the transition from a finite-dimensional to an infinite-dimensional Hilbert space. Today,
+        Floquet theory is often used in combination with analytical operator-based van Vleck perturbation
+        theory to generate effective time-independent Hamiltonians.  <br>
+        We present a modified Floquet framework that uses a continuous frequency space to describe and
+        design solid-state NMR experiments using time-dependent Hamiltonians. The approach is similar to
+        the well established Floquet treatment for NMR, but is not restricted to periodic Hamiltonians
+        and allows the design of experiments in a reverse fashion. The framework is based on perturbation
+        theory on a continuous Fourier space, which leads to effective, i.e. time-independent, Hamiltonians.
+        This continuous Floquet approach simplifies the description of sequences with effective fields and
+        correctly describes the finite width of resonance conditions for pulse sequences with finite mixing
+        time.  <br>
+        It allows, in certain cases, the back calculation of the pulse scheme from the desired effective
+        Hamiltonian as a function of spin-system parameters. We show as an example how to back calculate
+        the radio-frequency irradiation in the MIRROR experiment from the desired chemical-shift offset
+        behavior of the sequence. It also enables us to optimize pulse sequences based on effective Hamiltonians
+        without requiring the use of density-operator simulations. We will show first preliminary applications
+        to frequency-selective recoupling in solid-state NMR under MAS." 
   
 - time: "19:15"
-  speaker: "Discussions in the club"
+  speaker: "Dinner <br> and <br> Discussions in the club"
   title:   " "
   abstract: " "              
               
