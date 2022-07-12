@@ -242,7 +242,7 @@ title: optimal-nmr Experiments
     </tr>
   </thead>
   <tbody>
-  {% for item in site.data.workshop_program_test %}
+  {% for item in site.data.workshop_program_thursday %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
       {% if item.speaker == "Break"  %}
