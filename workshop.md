@@ -245,11 +245,14 @@ title: optimal-nmr Experiments
   {% for item in site.data.workshop_program_thursday %}
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
-      {% if item.title == " "  %}
+      {% if item.speaker == "Break"  %}
          <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
-         <td style="text-align: left"> </td>
       {% else %}
          <td style="text-align: center"><em>{{ item.speaker }}</em></td>
+      {% endif %}
+      {% if item.title == " " %}
+         <td style="text-align: left"> </td>
+      {% else %}
          <td style="text-align: left">
             <div style="width: 400px; text-align: justify">
             {{ item.title }} 
