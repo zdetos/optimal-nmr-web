@@ -246,18 +246,22 @@ title: optimal-nmr Experiments
      <tr>
       <td style="text-align: left">{{ item.time }}</td>
       {% if item.speaker == "Break"  %}
-      <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+         <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
       {% else %}
-      <td style="text-align: center"><em>{{ item.speaker }}</em></td>
+         <td style="text-align: center"><em>{{ item.speaker }}</em></td>
       {% endif %}
-      <td style="text-align: left">{{ item.title }}<br /> 
-         <details><summary>Abstract</summary>
-         
-         <p style="font-size: 12px; width: 300px; text-align: justify">
-         {{ item.abstract }}
-         </p> 
-         </details>
-      </td>
+      {% if item.title == " " %}
+         <td style="text-align: left"> </td>
+      {% else %}
+         <td style="text-align: left">
+            {{ item.title }}<br> 
+            <details><summary>Abstract</summary>
+            <p style="font-size: 12px; width: 300px; text-align: justify">
+               {{ item.abstract }}
+            </p> 
+            </details>
+         </td>
+      {% endif %}
      </tr>
   {% endfor %}
   </tbody>
