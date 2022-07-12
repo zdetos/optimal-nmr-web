@@ -41,4 +41,20 @@
   speaker: "Break"
   title: " "
   abstract: " "          
-  
+
+- time: "16:45"
+  speaker: "Ilya Kuprov"
+  title:   "Dealing with instrument response functions within GRAPE framework"
+  abstract: "Response functions of resonant circuits create ringing artefacts if their input changes 
+            rapidly. When physical limits of electromagnetic spectroscopies are explored, this creates 
+            two types of problems. Firstly, simulation: the system must be propagated accurately 
+            through every oscillatory transient, this may be computationally expensive. Secondly, 
+            optimal control optimisation: instrument response must be taken into account; it may be 
+            advantageous to design pulses that are resilient to instrumental distortions. At the 
+            root of both problems is the popular piecewise-constant approximation for control 
+            sequences; in magnetic resonance it has persisted since the earliest days. In this paper, 
+            we report an implementation and some benchmarks for simulation and optimal control 
+            routines that use more recent Lie-group methods. Those simulate and optimise control 
+            pulses that are piecewise-polynomial – easier to generate on modern hardware and more 
+            resilient to instrumental distortions. However, the basic mathematics of magnetic 
+            resonance simulation and optimal control does require an update."   
