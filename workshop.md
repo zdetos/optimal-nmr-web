@@ -265,3 +265,38 @@ title: optimal-nmr Experiments
   {% endfor %}
   </tbody>
 </table>
+
+**Friday, Oct 14**
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: center">Speaker</th>
+      <th style="text-align: left">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in site.data.workshop_program_friday %}
+     <tr>
+      <td style="text-align: left">{{ item.time }}</td>
+      {% if item.title == " "  %}
+         <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
+         <td style="text-align: left"> </td>
+      {% else %}
+         <td style="text-align: center"><em>{{ item.speaker }}</em></td>
+         <td style="text-align: left">
+            <div style="width: 400px; text-align: justify">
+            {{ item.title }} 
+            <details style="font-size: 12px; padding: 5px 20px 5px 5px"><summary>Abstract</summary>
+            <p>
+               {{ item.abstract }}
+            </p> 
+            </details>
+            </div>
+         </td>
+      {% endif %}
+     </tr>
+  {% endfor %}
+  </tbody>
+</table>
