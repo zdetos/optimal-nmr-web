@@ -11,6 +11,8 @@ discusses current developments, and wants to stimulate new ideas for application
 
 **Location**:  [Institute of Advanced Studies](https://www.ias.tum.de/ias/institute-for-advanced-study/resources-facilities/ias-building/) of the Technical University Munich in Garching, Germany
 
+**Registration**: free of charge, please send email to [Bernd Reif](mailto:reif@tum.de) 
+
 #### Program (preliminary) {#my-h4-id}
 
 **Thursday, Oct 13**
@@ -29,7 +31,7 @@ discusses current developments, and wants to stimulate new ideas for application
       <td style="text-align: left">{{ item.time }}</td>
       {% if item.title == " "  %}
          <td style="text-align: center"><strong>{{ item.speaker }}</strong></td>
-         <td style="text-align: left"> </td>
+         <td style="text-align: left"> <div style="font-size: 12px"> {{ item.abstract }} </div> </td>
       {% else %}
          <td style="text-align: center"><em>{{ item.speaker }}</em></td>
          <td style="text-align: left">
