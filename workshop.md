@@ -1,6 +1,6 @@
 ---
 layout: default
-title: optimal-nmr Experiments
+title: optimal-nmr Workshop
 ---
 # Workshop Optimal Control in MAS solid-state NMR  {#my-h1-id}
 
