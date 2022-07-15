@@ -12,20 +12,25 @@
         
 - time: "9:30"
   speaker: "Guido Pintacuda"
-  title:   "to be announced"
+  title:   "Biomolecular MAS NMR: three good reasons for spinning faster"
   abstract: "no abstract given" 
 
 - time: "10:00"
+  speaker: "Armin Purea"
+  title:   "tentatively: MAS probes"
+  abstract: "no abstract given" 
+
+- time: "10:30"
   speaker: "Niels Christian Nielsen"
   title:   "Single-spin vector and exact effective Hamiltonian theory based design of optimal experiments in magnetic resonance"
   abstract: "no abstract given"   
 
-- time: "10:30"
+- time: "11:00"
   speaker: "Break"
   title:  " "
   abstract: " " 
   
-- time: "11:15"
+- time: "11:45"
   speaker: "Paul Schanda"
   title:   "Protein dynamics in large assemblies: from local side chain motions to functional large-scale mobility"
   abstract: "MAS NMR is an essential method to gain insights into dynamics at the atomic scale, independently 
@@ -38,7 +43,7 @@
         amyloid fibers and large oligomeric proteins. The results shed light onto the packing of aromatic 
         rings within a protein interior and with other molecules."
   
-- time: "11:45"
+- time: "12:15"
   speaker: "Loren Andreas"
   title:   "Pulse sequences for ultrafast MAS and proton detection applied to membrane proteins and membrane-assosicated proteins"
   abstract: "The ultrafast MAS regime ( ~50-100 kHz) brings opportunities and challenges. Recent developments 
@@ -48,12 +53,12 @@
        resolution structure determination of membrane proteins and proteins that mis-fold and aggregate 
        on membranes."   
   
-- time: "12:15"
-  speaker: "TBA"
+- time: "12:45"
+  speaker: "Steffen Glaser"
   title:   "TBA"
   abstract: "no abstract given" 
   
-- time: "12:45"
+- time: "13:15"
   speaker: "Closing"
   title:   " "
   abstract: " " 
