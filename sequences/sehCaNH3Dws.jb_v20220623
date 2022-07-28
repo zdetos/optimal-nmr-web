@@ -176,7 +176,6 @@ F2EA(calph(ph8, +180) & calph(ph4, +180),caldel(d10, +in10))
 HaltAcqu, 1m  	;jump address for protection files
 exit
 
-; phase cycle - no inbalance compensation and not 1H filtering yet!
 ph0=  1	; H excitation hard pulse
 ph1=  0	; H HC CP
 ph2=  1 3	; C HC CP
