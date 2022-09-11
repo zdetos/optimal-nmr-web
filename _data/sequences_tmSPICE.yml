@@ -20,6 +20,6 @@
   link: /sequences/tmSPICE-MAS110kHz-CAN.zip
   text: duration of 385 rotor periods, nominal MAS frequency 110 kHz, nominal RF amplitudes 110/80 kHz for 13C/15N channels, respectively
 - name: tm-SPICE 110 kHz - CO-N
-  link: /sequences/tmSPICE-MAS110kHz-CAN.zip
+  link: /sequences/tmSPICE-MAS110kHz-CON.zip
   text: duration of 385 rotor periods, nominal MAS frequency 110 kHz, nominal RF amplitudes 110/80 kHz for 13C/15N channels, respectively
   
