@@ -62,7 +62,16 @@
 - time: "17:15"
   speaker: "Jan Stanek"
   title:   "Transverse Magnetic Field Inhomogeneity and its Consequences for Performance of Protein Triple Resonance Correlation Experiments Under fast MAS"
-  abstract: "no abstract given" 
+  abstract: "1H-detected NMR under fast (above 50 kHz) MAS conditions offers sensitivity and resolution required for spectral analysis 
+           of complex biomolecules. To address the increasing ambiguity of protein backbone chemical shift assignment, resolution enhancement
+           of multidimensional spectra is key. Inherently, RF schemes become increasingly more sophisticated, for example with extra pulses
+           or decoupling schemes introduced into triple-resonance amide proton-detected 3D experiments. In this respect, we will also 
+           review recent alternative strategies including direct amide-to-amide correlations, high-dimensional approaches (up to 5Ds), 
+           shared-time spectral acquisition and side-chain to backbone correlations. We will present both simulated and experimental 
+           RF distributions in the coil, and discuss the impact of RF inhomogeneity on detection sensitivity and performance of various
+           building blocks of complex correlation RF schemes such as CPs, hard and soft inversion pulses and specific recoupling schemes.
+           We will additionally discuss which blocks could be optimised with respect to RF inhomogeneities using spin dynamics simulations
+           in SIMPSON." 
 
 - time: "17:45"
   speaker: "Piotr Klukowski"
