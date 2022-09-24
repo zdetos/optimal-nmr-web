@@ -23,7 +23,13 @@
 - time: "10:30"
   speaker: "Niels Christian Nielsen"
   title:   "Single-spin vector and exact effective Hamiltonian theory based design of optimal experiments in magnetic resonance"
-  abstract: "no abstract given"   
+  abstract: "Single-vector effective Hamiltonian theory (SV-EHT) and exact effective Hamiltonian theory (EEHT) methods are 
+             described for analysis and design of advanced magnetic resonance experiments. These tools provide highly 
+             accurate/exact descriptions of effective Hamiltonians with detailed information on linear and bilinear components 
+             and their interplay in experiments for coherence/polarization transfer in presence of large offsets. The complementarity 
+             and use of SV-EHT and EEHT is demonstrated for liquid-state NMR isotropic mixing and solid-state NMR dipolar recoupling 
+             focusing on offset behavior, delicate aspects of resonance formation, and multiple-spin effective Hamiltonian/density 
+             operator evolution based on single-spin analysis."   
 
 - time: "11:00"
   speaker: "Break"
