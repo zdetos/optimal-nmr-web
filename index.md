@@ -43,4 +43,4 @@ that it is possible to obtain sensitivity gains that go beyond the systematic \\
 1. Tosner, Z. *et al.* Radiofrequency fields in MAS solid state NMR probes. *J Magn Reson* 284, 20-32 \(**2017**\). [DOI: 10.1016/j.jmr.2017.09.002](https://doi.org/10.1016/j.jmr.2017.09.002)
 2. Tosner, Z. *et al.* Overcoming Volume Selectivity of Dipolar Recoupling in Biological Solid-State NMR Spectroscopy. *Angew. Chemie \- Int. Ed.* 57, 14514-14518 \(**2018**\). [DOI: 10.1002/anie.201805002](https://doi.org/10.1002/anie.201805002)
 3. Tosner, Z. *et al.* Maximizing efficiency of dipolar recoupling in solid-state NMR using optimal control sequences. *Sci. Adv.* 42, abj5913 \(**2021**\). [DOI: 10.1126/sciadv.abj5913](https://doi.org/10.1126/sciadv.abj5913)
-4. Blahut, J. *et al.* Sensitivity-enhanced multidimensional solid-state NMR spectroscopy by optimal-control-based transverse mixing sequences. *submitted*
+4. Blahut, J. *et al.* Sensitivity-enhanced multidimensional solid-state NMR spectroscopy by optimal-control-based transverse mixing sequences. *J Am Chem Soc*, Articles ASAP \(**2022**\). [DOI: 10.1021/jacs.2c06568](https://doi.org/10.1021/jacs.2c06568)
