@@ -13,7 +13,13 @@
 - time: "9:30"
   speaker: "Guido Pintacuda"
   title:   "Biomolecular MAS NMR: three good reasons for spinning faster"
-  abstract: "no abstract given" 
+  abstract: "The switch from the traditional MAS NMR approaches with 13C and 15N detection to 1H has 
+             accelerated the site-specific analysis of complex immobilised biological systems and 
+             opened the way to samples of higher molecular weight and available in limited amounts. 
+             We will take the moves from a critical analysis of recent literature data, share our first 
+             results on a prototype Bruker 0.4mm probe capable of rates exceeding 150 kHz and discuss 
+             the expected impact of fast MAS on resolution and sensitivity of different biomolecular 
+             NMR experiments." 
 
 - time: "10:00"
   speaker: "Armin Purea"
