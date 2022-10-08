@@ -23,8 +23,17 @@
 
 - time: "10:00"
   speaker: "Armin Purea"
-  title:   "tentatively: MAS probes"
-  abstract: "no abstract given" 
+  title:   "MAS probes from an industry perspective"
+  abstract: "Magic-angle spinning NMR probes need to fulfill various technical requirements. Apart from RF capabilities
+             for spin excitation and detection with high efficiency and homogeneity at multiple frequencies, sample 
+             spinning speeds on the order of 10-100 kHz need to be attainable, often at given temperatures beyond 
+             the ambient range. Secondary aspects indirectly linked to performance are producibility and usability, 
+             which are relevant for efficient production of diverse probe portfolios and for the general accessibility 
+             of MAS NMR, respectively.
+             Substantial advances in probe instrumentation have been made in all above fields over the last decades. 
+             However, physical and engineering limitations are quite diverse across the requirements, and some requirements
+             are interlinked. An overview of these requirements will be given, along with an insight into theoretical 
+             and practical limitations, recent achievements, the current state of technology and an outlook into future advances." 
 
 - time: "10:30"
   speaker: "Niels Christian Nielsen"
