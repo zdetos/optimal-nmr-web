@@ -70,4 +70,25 @@ below the expected values (down to about 70% of the calculated value). Investiga
 </div>
 </details> 
 
+# Sensitivity-enhanced homonuclear TROP 3D hCA(CO)NH and hCO(CA)NH experiments   {#my-h1-id}
 
+|---|---|
+|![seCXcyNH pulse sequence](/images/se_hCXcyNH_3D.png "se-hCA/CO(co/ca)NH Experiment") | You can download Bruker pulse program using the right-click for the [3D se-hCA(co)NH](/sequences/sehCacoNH3Dws.jb), and for the [3D se-hCO(ca)NH](/sequences/sehCOcaNH3Dws.jb). |
+
+<details markdown="1"><summary>Expand for experimental protocol</summary>
+<div markdown="1">
+#### Experimental protocol   {#my-h4-id}
+
+|                   | Nominal                    |   Actual                   |
+|-------------------|----------------------------|----------------------------|
+| MAS frequency     | \\(\nu_R^{NOM}\\) = 55 kHz | \\(\nu_R\\) = 58 kHz |
+| Number of rotor periods | \\(N_R\\) = 99 |      \\(N_R\\) = 99        |
+| Duration  | \\(t = N_R / \nu_R^{NOM}\\) = 1800 &mu;s | \\(t = N_R / \nu_R\\) = 1706.90 &mu;s |
+| RF amplitude | \\(\nu_1^{NOM}\\) = 75 kHz | \\(\nu_1 = \nu_1^{NOM} \times \nu_R /  \nu_R^{NOM}\\) <br> = 79.1 kHz|
+
+**WARNING**: homonuclear TROP shapes are specific to magnetic field strength. Make sure you are using the right shape. 
+
+You should get nice signals. On some spectrometers we found it is necessary to optimize RF amplitudes of TROP pulses within a broader range 
+below the expected values (down to about 70% of the calculated value). Investigation of this phenomenon is underway.
+</div>
+</details> 

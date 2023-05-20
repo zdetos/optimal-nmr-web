@@ -28,4 +28,18 @@ title: optimal-nmr Sequences
   {% endfor %}
 </ul>
 </p>
-</details>                        
+</details>      
+
+<h1 id="my-h1-id">List of homoTROP sequences</h1>
+<details><summary>show here</summary>
+<p>
+<ul>
+  {% for item in site.data.sequences_homoTROP %}
+    <li>
+      <h3><a href="{{ item.link |relative_url }}">{{ item.name }}</a></h3>
+      {{ item.text }}
+    </li>
+  {% endfor %}
+</ul>
+</p>
+</details>                                          

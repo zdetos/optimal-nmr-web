@@ -1,0 +1,218 @@
+;sehCacoNH3Dws.jb
+;
+;hCacoNH experiment with
+;sensitivity enhanced coN transfer using TROP pulse and
+;sensitivity enhanced NH transfer using TROP pulse
+;sensitivity enahnace Caco transfer using homoTROP pulse
+;with water suppression after 1st CP
+;JB + ZT Faculty of Science, Charles University in Prague
+;MB Technical University of Munchen
+;
+;
+;$CLASS=BioSolids
+;$DIM=3D
+;$TYPE=Heteronuclear Triple-resonance
+;$SUBTYPE=sensitivity enhance
+;$COMMENT=hCacoNHws sensitivity-enhanced 3D using se-tmSPICE pulses, with homonuclear mixing, MISSISSIPI water suppression
+
+;Parameters:
+;p1 : H 90 at plw1
+;p2 : N 90 at plw2
+;p3 : C 90 at plw3
+;p13 : hCa CP contact time
+;p35 : Caco se homonuclear mixing
+;p42 : coN seCP contact time
+;p21 : NH seCP contact time
+;p33 : CO selective 180 pulse at sp33 (~256 to 275 us at 600 MHz)
+;      (is linearly proportional to 1/B0! --> adjust length to B0 used)(Q3.2000)
+;p34 : Ca selective 180 pulse at sp34 (~256 to 350 us at 600 MHz)
+;      (is linearly proportional to 1/B0! --> adjust length to B0 used)(Q3.2000)
+
+;pl1 : H hard pulse power
+;pl2 : N hard pulse power
+;pl3 : C hard pulse power
+;pl12 : H high-power decoupling power
+;pl13 : H MISSISSIPPI power 
+;pl16 : N high-power decoupling power
+;pl18 : C high-power decoupling power  
+;pl51 : H CW decoupling power during CN seCP (usually =0W)
+;pl52 : H CW decoupling power during Caco mixing (usually =0W)
+;pl53 : N CW decoupling power during Caco mixing (usually =0W)
+
+;sp3 : H hCa CP (ramp)
+;sp30 : C hCa CP (rect)
+;sp35 : C Caco mixing (homoTROP)
+;sp42 : C coN seCP (TROP)
+;sp48 : N coN seCP (TROP)
+;sp2 : N NH seCP (TROP)
+;sp20 : H NH seCP (TROP)
+;sp33 : CO selective 180 power
+;       (open the shape in the shapetool>stdisp and go to >Analysis>
+;       Integrate Shape & enter:"length of p33, '180.0', length of p3"
+;       --> result will tell by how much pl1 needs to be changed for sp33)
+;sp34 : Ca selective 180 power
+;       (open the shape in the shapetool>stdisp and go to >Analysis>
+;       Integrate Shape & enter:"length of p34, '180.0', length of p3"
+;       --> result will tell by how much pl1 needs to be changed for sp34)
+
+;d19 : delay for MISSISSIPPI water suppression (~100 to 300 ms)
+;d0 : C incremental delay (t1) 
+;d10 : N incremental delay (t2)
+;d1 : recycle delay; 1 to 5 times 1H-T1
+
+;pcpd1 : H decoupling pulse for cpdprg1 
+;pcpd2 : N decoupling pulse for cpdprg2 
+;pcpd3 : C decoupling pulse for cpdprg3 
+;cpdprg1 : H decoupling file (at pl12) during d0, d10 (e.g. rcw_ApA_pl12)
+;cpdprg2 : N decoupling file (at pl16) during acq (e.g. waltz16_pl16)
+;cpdprg3 : C decoupling file (at pl18) during acq (e.g. waltz16_pl18)
+;cpdprg4 : H water suppression ('cwX_13nofq' at pl13 (15 kHz))
+;cpdprg5 : H water suppression ('cwY_13nofq' at pl13 (15 kHz))
+
+;spnam3 : ramp90100.1000 (H hCa CP)
+;spnam30 : square.100 (C hCa CP)
+;spnam35 : TROP-CACO-MASxkHz-x-chan13C.sh (C Caco homo)
+;spnam42 : TROP-CON-MASxkHz-x-chan13C.sh (C coN seCP)
+;spnam48 : TROP-CON-MASxkHz-x-chan15N.sh (N coN seCP)
+;spnam2 : TROP-NH-MASxkHz-x-chan15N.sh (N NH seCP)
+;spnam20 : TROP-NH-MASxkHz-x-chan1H.sh (H NH seCP)
+;spnam33 : Q3.2000 (CO selective shape)
+;spnam34 : Q3.2000 (Ca selective shape)
+
+;spoffs30 : 0 (set via fq cnst22)
+;spoffs33 : diff. from current carrier to CO freq. (in Hz, is calculated)
+;spoffs34 : 0 expect offset O3 on Ca freq.
+;spoffs35 : 0 expect offset O3 on Ca freq.
+;spoffs42 : 0 (set via fq cnst21)
+
+;cnst21 : Frequency offset for CO (~174 ppm)
+;cnst22 : Frequency offset for Ca (~54 ppm)
+;cnst26 : Frequency offset for CO-Ca middle (~114 ppm, is calculated)
+
+;ns : number of scans n x 4
+;td1 : number of C increments
+;td2 : number of N increments
+;FnMODE : echo-antiecho in both F1 and F2
+
+"cnst26=((cnst21-cnst22)/2)+cnst22"       ; center between CO & Ca
+
+; calculation of shape offsets
+"spoff34=0"
+"spoff30=0"
+"spoff33=bf3*((cnst21-cnst22)/1000000)"
+"spoff35=0"
+"spoff42=0"
+
+"in0=inf1/2"
+"in10=inf2/2"
+
+"d0=1u" 
+"d10=0u"
+define delay DELTA
+"DELTA=d0*2+larger(p2*2,p33)-p33"    ; symmetry delay
+
+"acqt0=0"               ; baseopt correction
+
+aqseq 321
+
+1 ze
+2 d1 do:f2 do:f3
+
+0.5u fq=cnst22(bf ppm):f3     ; switch to Ca freq.
+
+#include <acq_prot.incl> 
+;Max. 50 ms acquisition time
+
+; Initial excitation and hCa CP           
+(p1 pl1 ph0):f1
+(p13:sp3 ph1):f1 (p13:sp30 ph2):f3
+
+; water suppression
+(p3 pl3 ph20):f3           ; brings magn. to z
+
+  0.5u cpds4:f1
+  d19*0.25
+  0.5u do:f1
+
+  0.5u cpds5:f1
+  d19*0.25
+  0.5u do:f1
+
+  0.5u cpds4:f1
+  d19*0.25
+  0.5u do:f1
+
+  0.5u cpds5:f1
+  d19*0.25
+  0.5u do:f1
+
+(p3 pl3 ph21):f3           ; brings magn. to xy
+
+; t1 13Ca evolution with selective refocusing and Bloch-Siegert compensation                     
+1u cpds1:f1			; 1H decoupling on
+(p33:sp33 ph3):f3 ;Bloch-Siegert compensation @CO
+DELTA               ; symmetry delay
+(p34:sp34 ph4):f3 ;Bloch-Siegert compensation @Ca
+d0
+(center (p2*2 pl2 ph15):f2 (p33:sp33 ph5):f3) ; CO selective and 15N refocusing
+d0
+1u do:f1			 ; 1H decoupling off
+
+; echo-antiecho determination
+(p3 pl3 ph6):f3		; 1st half of 180
+(p3 pl3 ph7):f3		; 2nd half of 180
+
+; Caco homonuclear mixing
+(p35:sp35 ph8):f3 (p35 pl53 ph19):f2 (p35 pl52 ph17):f1
+0.5u fq=cnst21(bf ppm):f3     ; change offset to CO
+
+; coN seCP                        
+(p42:sp42 ph9):f3 (p42:sp48 ph10):f2 (p42 pl51 ph18):f1
+
+; t2 15N evolution
+0.1u cpds1:f1 fq=cnst26(bf ppm):f3	; 1H decoupling on 13C freq. to CO-Ca middle
+d10
+(p3*2 pl3 ph16):f3
+d10
+0.1u do:f1			 ; 1H decoupling off
+
+; echo-antiecho determination
+(p2 pl2 ph11):f2		; 1st half of 180
+(p2 pl2 ph12):f2		; 2nd half of 180
+
+; NH seCP                        
+(p21:sp2 ph13):f2 (p21:sp20 ph14):f1
+
+; Acquisition  
+go=2 ph31 cpds2:f2 cpds3:f3 
+10m do:f2 do:f3 mc #0 to 2
+F1EA(calph(ph7, +180),caldel(d0, +in0))
+F2EA(calph(ph12, +180) & calph(ph7, +180),caldel(d10, +in10))
+
+HaltAcqu, 1m  	;jump address for protection files
+exit
+
+ph0=  1	; H excitation hard pulse
+ph1=  0	; H HCa CP
+ph2=  1 3	; C HCa CP
+ph3= 0 ; soft 180 on C 
+ph4= 0 ; soft 180 on C 
+ph5= 0 ; soft 180 on C
+ph6= 0 ; 1st half of 13C 180
+ph7= 2 ; 2nd half of 13C 180 
+ph8= 0 ; Caco homonuclear mixing
+ph9= 0 ; C CN seCP 
+ph10= 0 0 2 2 ; N CN seCP 
+ph11= 0 ; 1st half of 15N 180
+ph12= 2 ; 2nd half of 15N 180
+ph13= 0	; N NH seCP
+ph14= 0	; H NH seCP
+ph15= 0	; N 180 during t1
+ph16= 0	; C 180 during t2
+ph17= 0 ; H CW during Caco
+ph18= 0 ; H CW during CN seCP
+ph19= 0 ; N CW during Caco
+ph20= 0 2 ; water supp. first C 90
+ph21= 2 0 ; water supp. second C 90
+ph31= 1 3 3 1	; detection 
+
