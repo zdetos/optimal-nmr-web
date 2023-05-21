@@ -1,0 +1,145 @@
+;sehNCaCO3D.jb
+;
+;hNCaCO experiment with
+;sensitivity enhanced NCa transfer using se-tmSPICE and
+;sensitivity enhanced homonuclear CaCO mixing                      
+;JB + ZT Faculty of Science, Charles University in Prague
+;
+;$CLASS=BioSolids
+;$DIM=3D
+;$TYPE=Heteronuclear Triple-resonance
+;$SUBTYPE=sensitivity enhanced, carbon detection
+;$COMMENT=hNCaCO sensitivity-enhanced 3D using TROP and homoTROP pulses	
+
+;Parameters:
+;p1 : C 90 at plw1
+;p2 : H 90 at plw2
+;p3 : N 90 at plw3
+;p12 : hN CP contact time
+;p23 : NCa seCP contact time
+;p34 : CaCO seCP contact time
+
+;pl1 : C hard pulse power
+;pl2 : H hard pulse power
+;pl3 : N hard pulse power
+;pl12 : H high-power decoupling power 
+;pl16 : N decoupling power  
+;pl51 : 1H CW decoupling power during NC seCP
+;pl52 : 1H CW decoupling power during CaCO mixing
+;pl53 : 15N CW decoupling power during CaCO mixing
+
+;sp1 : H hN CP (ramp)
+;sp10 : N hN CP (rect)
+;sp23 : C NCa seCP (TROP)
+;sp27 : N NCa seCP (TROP)
+;sp34 : CaCO seCP (homoTROP)
+
+;d0 : N incremental delay (t1) 
+;d10 : CA incremental delay (t2)
+;d1 : recycle delay; 1 to 5 times 1H-T1
+
+;pcpd1 : H decoupling pulse for cpdprg1 
+;pcpd3 : N decoupling pulse for cpdprg3 
+;cpdprg1 : H decoupling file (at pl12) during d0, d10 (e.g. rcw_ApA_pl12)
+;cpdprg3 : N decoupling file (at pl16) during acq (e.g. waltz16_16nofq)
+
+;spnam1 : ramp70100.1000 (H hN CP)
+;spnam10 : square.100 (N hN CP)
+;spnam23 : TROP-NCA-MAS<x>kHz-chan15N.sh (N CaN seCP)
+;spnam27 : TROP-NCA-MAS<x>kHz-chan13C.sh (C CaN seCP)
+;spnam34 : TROP-CACO-MASxkHz-chan13C.sh (C CaCO seCP)
+
+;spoffs1 : diff. from current carrier to Hn freq. (=0 Hz)
+;spoffs10 : diff. from current carrier to hN freq. (=0 Hz)
+;spoffs23 : diff. from current carrier to Nca freq. (=0 Hz)
+;spoffs27 : diff. from current carrier to Ca freq. (=0 Hz set via fq=)
+;spoffs34 : diff. from current carrier to Ca freq. (=0 Hz set via fq=)
+
+;cnst21 : Frequency offset for CO (~174 ppm)
+;cnst22 : Frequency offset for Ca (~54 ppm)
+;cnst26 : Frequency offset for CO-Ca middle (~114 ppm, is calculated)
+
+;ns : number of scans n x 4
+;td1 : number of N increments
+;td2 : number of CA increments
+;FnMODE : echo-antiecho in both F1 and F2
+
+"cnst26=((cnst21-cnst22)/2)+cnst22"       ; center between CO & Ca
+
+"in0=inf1"
+"in10=inf2"
+
+"acqt0=-(p1*2/3.1416)"               ; baseopt correction
+
+aqseq 312
+
+1 ze
+2 d1 do:f2 do:f3
+
+0.5u fq=cnst22(bf ppm):f1     ; switch to Ca freq.
+
+#include <acq_prot.incl> 
+;Max. 50 ms acquisition time
+
+; Initial excitation and hCa CP           
+(p2 pl2 ph0):f2
+(p12:sp1 ph1):f2 (p12:sp10 ph2):f3
+(p2 pl2 ph10):f2
+
+; t1 15N evolution              
+0.1u cpds1:f2			; 1H decoupling on
+(center
+  (d0)
+  (p1*2 pl1 ph11):f1
+)
+0.1u do:f2			 ; 1H decoupling off
+
+; echo-antiecho determination
+(p3 pl3 ph3):f3		; 1st half of 180
+(p3 pl3 ph4):f3		; 2nd half of 180
+
+; NCa TROP                        
+(p23:sp23 ph5):f3 (p23:sp27 ph6):f1 (p23 pl51 ph12):f2
+
+; t2 Ca evolution                     
+0.1u cpds1:f2 ; 1H decoupling offset during d10 to O1
+(center
+  (d10)
+  (p3*2 pl3 ph13):f3
+)
+0.1u do:f2		 ; 1H decoupling off
+
+; echo-antiecho determination
+(p1 pl1 ph7):f1		; 1st half of 180
+(p1 pl1 ph8):f1		; 2nd half of 180
+
+; CACO homoTROP                        
+(p34:sp34 ph9):f1 (p34 pl52 ph14):f2 (p34 pl53 ph15):f3
+
+; Acquisition  
+go=2 ph31 cpds1:f2 cpds3:f3
+10m do:f2 do:f3 mc #0 to 2
+F1EA(calph(ph4, +180),caldel(d0, +in0))
+F2EA(calph(ph8, +180) & calph(ph4, +180),caldel(d10, +in10))
+
+HaltAcqu, 1m  	;jump address for protection files
+exit
+
+ph0=  1	; H excitation hard pulse
+ph1=  0	; H HN CP
+ph2=  1 3	; N HN CP
+ph10= 3 ; H flip-back pulse
+ph11= 0	; C 180 during d0
+ph3=  0	; 1st half of 15N 180
+ph4=  2	; 2nd half of 15N 180
+ph5=  0	; C NCA seCP
+ph6=  0 0 2 2	; N NCA seCP
+ph12= 0 ; H CW decoupling during NCA CP 
+ph13= 0 ; N 180 during d10
+ph7=  0	; 1st half of 13C 180
+ph8=  2	; 2nd half of 13C 180
+ph9=  0	; CACO mixing
+ph14 = 0 ; H CW decoupling during CaCO mixing
+ph15 = 0 ; N CW decoupling during CaCO mixing
+ph31= 1 3 3 1	; detection 
+
