@@ -1,4 +1,4 @@
-##TITLE= sensitivity enhanced tmSPICE CP for CO->CA transfer, MAS freq. 20kHz, 13C channel (from shape_lev4c_temp_160.dat)
+##TITLE= sensitivity enhanced tmSPICE CP for CO->CA transfer, MAS freq. 20kHz, 400MHz, spectrometer, 13C channel (from shape_lev4c_temp_160.dat)
 ##USAGE= set contact time 36 rotor periods, RF power corresponding to 40kHz nut. freq.
 ##JCAMP-DX= 5.00 $$ Bruker JCAMP library
 ##DATA TYPE= Shape Data

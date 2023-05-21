@@ -1,4 +1,4 @@
-##TITLE= Transverse tmSPICE for CA --> CO transfer, MAS freq. 55kHz, 13C channel (from shape_lev3_temp_380.dat)
+##TITLE= Transverse tmSPICE for CA --> CO transfer, MAS freq. 55kHz, 800MHz spectrometr, 13C channel (from shape_lev3_temp_380.dat)
 ##USAGE= set contact time 99 rotor periods, RF power corresponding to 75kHz nut. freq., offset to CA
 ##JCAMP-DX= 5.00 $$ Bruker JCAMP library
 ##DATA TYPE= Shape Data
