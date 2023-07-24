@@ -1,3 +1,18 @@
+- name: homoTROP 100 kHz and 800 MHz spectrometer - CO-CA
+  link: /sequences/TROP-COCA-MAS100kHz-800MHz-180rp-chan13C.shp
+  text: duration of 180 rotor periods, nominal MAS frequency 100 kHz, nominal RF amplitude 75 kHz, set offset to CO. NOT TESTED!
+- name: homoTROP 55 kHz and 1.2 GHz spectrometer - CA-CO
+  link: /sequences/TROP-CACO-MAS55kHz-1200MHz-99rp-chan13C.shp
+  text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CA. NOT TESTED!
+- name: homoTROP 55 kHz and 1.2GHz MHz spectrometer - CO-CA
+  link: /sequences/TROP-COCA-MAS55kHz-1200MHz-99rp-chan13C.shp
+  text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CO. NOT TESTED!
+- name: homoTROP 55 kHz and 900 MHz spectrometer - CA-CO
+  link: /sequences/TROP-CACO-MAS55kHz-900MHz-99rp-chan13C.shp
+  text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CA. NOT TESTED!
+- name: homoTROP 55 kHz and 900 MHz MHz spectrometer - CO-CA
+  link: /sequences/TROP-COCA-MAS55kHz-900MHz-99rp-chan13C.shp
+  text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CO. NOT TESTED!
 - name: homoTROP 55 kHz and 800 MHz spectrometer - CA-CO
   link: /sequences/TROP-CACO-MAS55kHz-800MHz-99rp-chan13C.shp
   text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CA
@@ -10,6 +25,12 @@
 - name: homoTROP 55 kHz and 700 MHz spectrometer - CO-CA
   link: /sequences/TROP-COCA-MAS55kHz-700MHz-99rp-chan13C.shp
   text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CO
+- name: homoTROP 55 kHz and 600 MHz spectrometer - CA-CO
+  link: /sequences/TROP-CACO-MAS55kHz-600MHz-99rp-chan13C.shp
+  text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CA. NOT TESTED!
+- name: homoTROP 55 kHz and 600 MHz spectrometer - CO-CA
+  link: /sequences/TROP-COCA-MAS55kHz-600MHz-99rp-chan13C.shp
+  text: duration of 99 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitude 75 kHz, set offset to CO. NOT TESTED!
 - name: homoTROP 20 kHz and 400 MHz spectrometer - CA-CO
   link: /sequences/TROP-CACO-MAS20kHz-36rp-chan13C.shp
   text: duration of 36 rotor periods, nominal MAS frequency 20 kHz, nominal RF amplitude 40 kHz, set offset to CA

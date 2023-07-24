@@ -13,4 +13,13 @@
 - name: TROP 55 kHz - NH
   link: /sequences/trop_NH_MAS55kHz.zip
   text: duration of 44 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitudes 100/70 kHz for 1H/15N channels, respectively
-  
+- name: TROP 55 kHz - NCO
+  link: /sequences/trop_NCO_MAS55kHz.zip
+  text: duration of 200 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitudes 80/55 kHz for 13C/15N channels, respectively. NOT TESTED!
+- name: TROP 55 kHz - CAN updated for 1.2GHz spectrometer
+  link: /sequences/trop_CAN_MAS55kHz_1p2GHz.zip
+  text: duration of 200 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitudes  80/55 kHz for 13C/15N channels, respectively. NOT TESTED!
+- name: TROP 55 kHz - CON updated for 1.2GHz spectrometer
+  link: /sequences/trop_CON_MAS55kHz_1p2GHz.zip
+  text: duration of 200 rotor periods, nominal MAS frequency 55 kHz, nominal RF amplitudes  80/55 kHz for 13C/15N channels, respectively. NOT TESTED!
+    
