@@ -1,3 +1,6 @@
+- name: homoTROP 100 kHz and 800 MHz spectrometer - CA-CO
+  link: /sequences/TROP-CACO-MAS100kHz-800MHz-180rp-chan13C.shp
+  text: duration of 180 rotor periods, nominal MAS frequency 100 kHz, nominal RF amplitude 75 kHz, set offset to CA. NOT TESTED!
 - name: homoTROP 100 kHz and 800 MHz spectrometer - CO-CA
   link: /sequences/TROP-COCA-MAS100kHz-800MHz-180rp-chan13C.shp
   text: duration of 180 rotor periods, nominal MAS frequency 100 kHz, nominal RF amplitude 75 kHz, set offset to CO. NOT TESTED!
