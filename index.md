@@ -3,10 +3,10 @@ layout: default
 title: optimal-nmr Main page
 ---
 <div style="text-align: center">
-<h1 style="background-color: rgb(219,241,251)"> Workshop <br> Optimal Control in MAS solid-state NMR  </h1>
+<h1 style="background-color: rgb(219,241,251)"> Postdoc and PhD positions available </h1>
 </div> 
 
-October 13-14, 2022, see details in the [**_Workshop_**](/workshop.html){:class="menulink"} section
+We are looking for postdoctoral fellows and PhD candidates to carry on the quest to improve the sensitivity and ease of use of magnetic resonance spectroscopy. Besides **_optimal control_**, we will exploit **_artificial intelligence_** and **_machine learning_** approaches to streamline the interpretation of spectroscopic data. For details about positions, see [the advertisement leaflet under this link](/Advertisement_OC-NMR-methods.pdf).
 
 # Welcome {#my-h1-id}
 
